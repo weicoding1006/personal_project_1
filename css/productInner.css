@@ -1,0 +1,502 @@
+.sec1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sec1-left {
+    width: 40%;
+    margin-right: 10px;
+}
+
+div.big-product img {
+    width: 100%;
+    display: block;
+}
+
+div.small-product {
+    /* width: 100%; */
+    /* font-size: 0; */
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.small-product a {
+    display: block;
+    width: 18%;
+}
+
+div.small-product a img {
+    width: 100%;
+    display: block;
+}
+
+/*bar-left---------------------*/
+div.bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.bar-left {
+    display: flex;
+    width: 50%;
+}
+
+div.share p {
+    font-size: 2rem;
+    font-family: 'Shippori Mincho B1', serif;
+    line-height: 3.5rem;
+}
+
+div.icon-link a {
+    text-decoration: none;
+}
+
+div.icon-link img {
+    width: 35px;
+}
+
+/*bar-right-----------------------*/
+
+div.bar-right a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 'Shippori Mincho B1', serif;
+    background-color: #ECECEC;
+    display: inline-block;
+    color: black;
+    padding: 15px 10px;
+    border-radius: 5px;
+    /* box-sizing: border-box; */
+}
+
+
+/*sec-right*/
+.sec1-right {
+    width: 40%;
+    margin-left: 15px;
+}
+
+div.title h3 {
+    font-size: 3.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+    margin-bottom: 20px;
+}
+
+div.title h4 {
+    font-size: 3.2rem;
+    font-family: 'Shippori Mincho B1', serif;
+    margin-bottom: 25px;
+}
+
+div.text1 {
+    margin-bottom: 40px;
+}
+
+div.text1 p {
+
+    font-size: 1.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+/*text2----------------------------*/
+
+
+div.text2 {
+    margin-bottom: 35px;
+}
+
+div.text2 p {
+    font-size: 1.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+    line-height: 1.4;
+}
+
+/*text3-------------------------*/
+
+div.text3 {
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+
+div.text3 h4 {
+    font-size: 2rem;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+div.text3 h4 span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.text3 p {
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 1.6rem;
+}
+
+/*text4-------------------*/
+
+div.text4 {
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+
+div.text4 h4 {
+    font-size: 2rem;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+div.text4 p {
+    font-size: 1.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+
+/*link*/
+div.link {
+    margin-bottom: 15px;
+}
+
+div.link a {
+    border-radius: 5px;
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 2.4rem;
+    color: black;
+    text-decoration: none;
+    /* background-color: red; */
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    border: 1px solid #5D5D5D;
+}
+
+div.link2 a {
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 2.4rem;
+    color: white;
+    text-decoration: none;
+    background-color: #252525;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 5px;
+    /* border: 1px solid #5D5D5D; */
+}
+
+
+/*sec2-----------------*/
+section.sec2 {
+    /* margin-top: 50px; */
+    padding-top: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+div.sec2-top {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+    padding-left: 20px;
+}
+
+div.sec2-top a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+    display: block;
+}
+
+div.sec2-bottom {
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+    padding-left: 20px;
+}
+
+div.sec2-bottom a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+    display: block;
+}
+
+div.sec2-top i {
+    margin-right: 10px;
+    max-width: 15px;
+}
+
+div.sec2-bottom i {
+    margin-right: 10px;
+    max-width: 15px;
+}
+
+
+/*sec3.......................*/
+section.sec3 {
+    background-color: #EFEFEF;
+    margin-top: 50px;
+}
+
+section.sec3 a {
+    text-decoration: none;
+    color: black;
+}
+
+div.sec3-warp {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+div.sec3-top h3 {
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-size: 3.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+div.sec3-top ul {
+    display: flex;
+    justify-content: center;
+    /* justify-content: center; */
+}
+
+div.sec3-top ul li {
+    width: 18%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 20px;
+}
+
+div.sec3-top ul li img {
+    width: 100%;
+    display: block
+}
+
+div.text-content {
+    background-color: #fff;
+}
+
+div.text-content h4 {
+    font-size: 2rem;
+    font-family: 'Shippori Mincho B1', serif;
+    padding: 10px 0 10px 10px;
+}
+
+div.text-content p {
+    font-size: 1.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*sec bottom------------------*/
+div.sec3-bottom {
+    padding-bottom: 50px;
+}
+
+div.sec3-bottom h3 {
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-size: 3.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+div.sec3-bottom ul {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+
+div.sec3-bottom ul li {
+    width: 18%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 20px;
+}
+
+div.sec3-bottom ul li img {
+    width: 100%;
+    display: block;
+}
+
+
+div.text-bottom h4 {
+    font-size: 2rem;
+    font-family: 'Shippori Mincho B1', serif;
+    padding: 10px 0 10px 10px;
+}
+
+div.text2 p.phone-text2{
+    display: none;
+}
+
+div.sec2-top{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+div.sec2-top a.right{
+    display: block;
+    margin-right: 5px;
+}
+div.sec2-top a.right i{
+    transform: rotate(90deg);
+    font-size: 20px;
+}
+div.sec2-bottom{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+div.sec2-bottom a.right{
+    display: block;
+    margin-right: 5px;
+}
+div.sec2-bottom a.right i{
+    transform: rotate(90deg);
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+/* .border{
+    outline: 3px solid rgb(149, 149, 149);
+    box-sizing: border-box;
+} */
+
+@media screen and (max-width:415px){
+    .sec1{
+        margin: 0;
+        flex-direction: column;
+        padding-top: 63px;
+    }
+    div.text2 p.des-text2{
+        display: none;
+    }
+    .sec1-left{
+        width: 100%;
+    }
+    .sec1-right{
+        margin: 0;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    div.bar{
+        display: none;
+    }
+    div.title h3{
+        font-size: 2.8rem;
+        font-weight: 600;
+    }
+    div.title h4{
+        font-size: 2.4rem;
+    }   
+    div.text1{
+        margin-bottom: 25px;
+    }
+    div.text1 p{
+        color: #a0a7b4;
+        font-weight: 500;
+        font-size: 1.6rem;
+    }
+    div.text3 h4{
+        font-size: 1.4rem;
+    }
+    div.text3 p{
+        font-size: 1.4rem;
+    }
+    div.text4 h4{
+        font-size: 1.4rem;
+    }
+    div.text4 p{
+        font-size: 1.4rem;
+    }
+
+    div.text2 p.phone-text2{
+        display: block;
+        font-size: 1.4rem;
+    }
+    section.sec1{
+        background-color: #fff;
+    }
+    article section.sec2{
+        background-color: white;
+        padding-bottom: 15px;
+        padding: 50px 5%;
+    }
+    div.sec2-top{
+        border-top: 1px solid #d5d5d5;
+        border-bottom: 1px solid #d5d5d5;
+    }
+    div.sec2-bottom{
+        border-bottom: 1px solid #d5d5d5;
+    }
+    div.sec2-bottom a.right i{
+        transform: rotate(0deg);
+        font-size: 20px;
+    }
+    div.sec2-top a.right i{
+        transform: rotate(0deg);
+        font-size: 20px;
+    }
+    div.sec3-top ul{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    div.sec3-top ul li{
+        width: 48%;
+    }
+    div.sec3-top{
+        padding: 0 3%;
+    }
+    div.sec3-top h3{
+        font-size: 2.8rem;
+    }
+
+    div.sec3-bottom ul{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    div.sec3-bottom ul li{
+        width: 48%;
+    }
+    div.sec3-bottom{
+        padding: 0 3%;
+    }
+    div.sec3-bottom h3{
+        font-size: 2.8rem;
+    }
+
+    div.text-content{
+        background-color: rgba(255, 255, 255, 0);
+    }
+    div.text-content h4{
+        padding: 0;
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+    div.text-content p{
+        padding: 0;
+        font-size: 1.4rem;
+        font-family: 'Amiri', serif;
+    }
+
+    .warp header div.logo{
+        transition: 0s !important;
+    }
+}
+
+

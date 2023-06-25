@@ -1,0 +1,731 @@
+article {
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: #636363;
+}
+
+thead tr {
+    height: 60px;
+}
+
+thead th {
+    color: white;
+    font-size: 2.4rem;
+    line-height: 60px;
+    font-family: 'Shippori Mincho B1', serif;
+    text-align: center;
+}
+
+thead th input {
+    width: 20px;
+    height: 20px;
+}
+
+
+tbody img {
+    width: 80px;
+}
+
+.cartList td {
+    position: relative;
+    height: 120px;
+}
+
+div.block1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.block1 input {
+    width: 15px;
+    height: 15px;
+}
+
+div.block1 span {
+    font-size: 1.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+div.block2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-left: 20px;
+}
+
+div.block2 p {
+    font-size: 1.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+    flex-basis: 120px;
+    margin-left: 20px;
+}
+
+
+div.block3 span,
+div.block3 p {
+    font-size: 2.4rem;
+    font-family: 'Amiri';
+}
+
+div.block3 {
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+div.block4 input {
+    width: 30px;
+    text-align: center;
+    border: none;
+    background-color: white;
+}
+
+div.block4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 5px;
+}
+
+div.block4 i {
+    cursor: pointer;
+}
+
+
+div.block5 span {
+    font-size: 2.4rem;
+    font-family: 'Amiri';
+}
+
+div.block5 {
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.block6 {
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.block6 p {
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+tr.bar td {
+    background-color: #D9D9D9;
+    height: 10px;
+}
+
+
+
+
+
+
+
+/*sec-block*/
+.sec-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -8px;
+    height: 90px;
+    margin-left: 60px;
+}
+
+
+div.sec-left {
+    font-size: 2rem;
+    font-family: 'Shippori Mincho B1', serif;
+    display: flex;
+    align-items: center;
+}
+
+div.sec-left a {
+    text-decoration: none;
+    color: black;
+}
+
+div.sec-left span.text2 {
+    margin-left: 20px;
+}
+
+div.sec-left input {
+    width: 20px;
+    height: 20px;
+}
+
+div.sec-right {
+    font-size: 2rem;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+div.sec-right a {
+    font-size: 2.4rem;
+    text-decoration: none;
+    color: black;
+    background-color: #3B2121;
+    color: white;
+    padding: 20px 70px;
+}
+
+div.sec-right span.total {
+    color: red;
+    font-family: 'Amiri';
+    font-weight: bold;
+    font-size: 3.2rem;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+/*sec3*/
+section.sec3 {
+    background-color: #EFEFEF;
+    margin-top: 50px;
+}
+
+section.sec3 a {
+    text-decoration: none;
+    color: black;
+}
+
+div.sec3-warp {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+div.sec3-top h3 {
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-size: 3.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+div.sec3-top ul {
+    display: flex;
+    justify-content: center;
+    /* justify-content: center; */
+}
+
+div.sec3-top ul li {
+    width: 18%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 20px;
+}
+
+div.sec3-top ul li img {
+    width: 100%;
+}
+
+div.text-content {
+    background-color: #fff;
+}
+
+div.text-content h4 {
+    font-size: 2rem;
+    font-family: 'Shippori Mincho B1', serif;
+    padding: 10px 0 10px 10px;
+}
+
+div.text-content p {
+    font-size: 1.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*sec bottom------------------*/
+div.sec3-bottom {
+    padding-bottom: 50px;
+}
+
+div.sec3-bottom h3 {
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-size: 3.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+div.sec3-bottom ul {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+
+div.sec3-bottom ul li {
+    width: 18%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 20px;
+}
+
+div.sec3-bottom ul li img {
+    width: 100%;
+}
+
+
+div.text-bottom h4 {
+    font-size: 2rem;
+    font-family: 'Shippori Mincho B1', serif;
+    padding: 10px 0 10px 10px;
+}
+
+section.phone-shoppingcar{
+    display: none;
+}
+div.top-block{
+    display: none;
+}
+section.phone-shoppingcar-title{
+    display: none;
+}
+
+div.phone-total{
+    display: none;
+}
+
+section.phone-sec3{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*功能*/
+.none{
+    display: none;
+}
+
+@media screen and (max-width:415px){
+
+    section.sec3{
+        display: none;
+    }
+    div.phone-total{
+        display: block;
+    }
+    section.phone-shoppingcar-title{
+        display: block;
+    }
+    div.top-block{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0);
+        height: 64px;
+        display: block;
+    }
+
+    section.sec-block{
+        display: none;
+    }
+    table.shoppingcar{
+        display: none;
+    }
+    section.sec3{
+        margin: 0;
+    }
+    div.sec3-top h3{
+        font-size: 2.8rem;
+    }
+    div.sec3-top{
+        padding: 0 3%;
+    }
+    div.sec3-top ul{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    div.sec3-top ul li{
+        width: 48%;
+    }
+    div.sec3-top ul li img{
+        display: block;
+    }
+
+
+    div.sec3-bottom h3{
+        font-size: 2.8rem;
+    }
+    div.sec3-bottom{
+        padding: 0 3%;
+        padding-bottom: 80px;
+    }
+    div.sec3-bottom ul{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    div.sec3-bottom ul li{
+        width: 48%;
+    }
+    div.sec3-bottom ul li img{
+        display: block;
+    }
+
+
+
+
+
+
+
+    section.phone-shoppingcar-title{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        border-top: 1px solid #d5d5d5;
+        border-bottom: 1px solid #d5d5d5;
+        padding: 20px 3%;
+        align-items: center;
+    }
+    section.phone-shoppingcar-title p.left{
+        font-size: 2.4rem;
+        font-family: 'Shippori Mincho B1', serif;
+        font-weight: 600;
+    }
+
+    section.phone-shoppingcar-title p.right{
+        font-size: 2rem;
+        font-family: 'Shippori Mincho B1', serif;
+        font-weight: 600;
+    }
+
+    
+
+
+    section.phone-shoppingcar{
+        display: block;
+        background-color: rgba(255, 255, 255);
+        width: 100%;
+
+        margin-top: 20px;
+
+    }
+
+    div.phone-shoppingcar-inner{
+        padding: 0 3%;
+    }
+    div.inner-title input{
+        width: 20px;
+        height: 20px;
+    }
+    div.inner-title h3{
+        font-size: 1.6rem;
+        font-family: 'Shippori Mincho B1', serif;
+        font-weight: 600;
+    }
+
+
+    div.inner-title{
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #d5d5d5;
+        padding: 20px 0;
+    }
+
+
+
+
+    div.product{
+        padding: 15px 0 35px 0;
+        border-bottom: 1px solid #d5d5d5;
+    }
+
+    div.product-block1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    div.product-block1 input{
+        width: 20px;
+        height: 20px;
+    }
+
+    div.product-block1 h3{
+        font-size: 1.6rem;
+        font-family: 'Shippori Mincho B1', serif;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+
+
+    div.product-content{
+        display: flex;
+
+    }
+    div.product-content div.product-content-pic{
+        width: 32%;
+    }
+    div.product-content div.product-content-pic img{
+        width: 100%;
+    }
+
+    div.product-content div.product-content-text{
+        width: 65%;
+        padding-left: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    div.product-content div.product-content-text a {
+        text-decoration: none;
+        color: black;
+    }
+    div.product-content div.product-content-text a h3{
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: 'Shippori Mincho B1', serif;
+    }
+
+
+
+
+
+
+
+
+    div.product-money{
+        /* margin-top: 15px; */
+    }
+    div.product-money p{
+        font-size: 2rem;
+        font-family: 'Amiri';
+    }
+
+    div.product-num{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* margin-top: 20px; */
+    }
+    div.phone-num{
+        width: 50%;
+        display: flex;
+        align-items: center;
+
+    }
+    div.phone-num input{
+        width: 5rem;
+        text-align: center;
+        margin: 0 10px;
+        height: 3vh;
+        box-sizing: border-box;
+    }
+    div.phone-del{
+        width: 30%;
+        text-align: right;
+    }
+    div.phone-del p{
+        font-size: 1.6rem;
+        font-family: 'Shippori Mincho B1', serif;
+        text-decoration: underline;
+        font-weight: 600;
+    }
+    div.type-content p{
+        font-size: 1.4rem;
+        font-family: 'Amiri';
+        font-family: 'Shippori Mincho B1', serif;
+    }
+
+
+    div.phone-pay-btn a{
+        display: block;
+        height: 100%;
+        width: 100%;
+        line-height: 60.71px;
+        color: white;
+        text-decoration: none;
+    }
+
+
+    div.inner-title{
+        display: none;
+    }
+
+
+    div.product{
+        display: block;
+    }
+
+    .none{
+        display: none !important;
+    }
+
+
+
+    div.type-content1 p{
+        font-size: 1.4rem;
+        font-family: 'Shippori Mincho B1', serif;
+    }
+
+
+
+
+
+
+    div.phone-total{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 7vh;
+        align-items: center;
+        border-top: 1px solid #d5d5d5;
+        border-bottom: 1px solid #d5d5d5;
+    }
+    div.phone-total-content{
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+        padding: 0 3%;
+    }
+    div.phone-total-content div.left{
+        display: flex;
+        align-items: center;
+    }
+    div.phone-total-content div.left input{
+        height: 20px ;
+        width: 20px;
+    }
+    div.phone-total-content div.left p{
+        font-size: 1.6rem;
+        font-family: 'Shippori Mincho B1', serif;
+        font-weight:bold;
+    }
+    div.phone-total-content div.right{
+        display: flex;
+        align-items: center;
+    }
+    div.phone-total-content div.right p{
+        font-size: 1.4rem;
+        font-family: 'Shippori Mincho B1', serif;
+    }
+    div.phone-total-content div.right p.money{
+        font-size: 1.6rem;
+        font-weight:bold;
+        margin-right: 5px;
+        margin-left: 5px;
+        /* font-family: 'Amiri'; */
+    }
+    footer.phone-footer{
+        display: none;
+    }
+
+
+
+
+    div.phone-pay-btn{
+        height: 100%;
+        width: 30%;
+        /* width: 20vw; */
+    }
+    div.phone-pay-btn button{
+        height: 100%;
+        width: 100%;
+        border: none;
+        background-color: #636363;
+        color: white;
+        font-family: 'Shippori Mincho B1', serif;
+        font-size: 1.6rem;
+    }
+
+
+
+
+    section.phone-sec3{
+        display: block;
+        background-color: white;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+
+    div.product-warp{
+        white-space: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        padding: 0 0 25px 0;
+    }
+    section.phone-sec3 div.productlist{
+        width: 35vw;
+        margin: 0 15px;
+        display: inline-block;
+    }
+    section.phone-sec3 div.productlist img{
+        width: 100%;
+    }
+    div.productlist-content h3{
+        font-size: 1.6rem;
+        font-family: 'Shippori Mincho B1', serif;
+        font-weight: 600;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    div.productlist-content p{
+        font-size: 1.4rem;
+        font-family: 'Amiri', serif;
+        margin-bottom: 10px;
+        margin-top: 5px;
+
+    }
+    section.phone-sec3 div.phone-sec3-title h3{
+        font-size: 2rem;
+        padding-left: 20px;
+        vertical-align: middle;
+        font-family: 'Shippori Mincho B1', serif;
+        font-weight: 600;
+        line-height: 6rem;
+    }
+
+    .warp header div.logo{
+        transition: 0s !important;
+    }
+
+
+
+
+
+
+
+
+
+
+}

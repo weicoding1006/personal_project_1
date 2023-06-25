@@ -1,0 +1,537 @@
+:root{
+    font-size: 10px;
+}
+
+
+
+.warp {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.warp header div.logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.warp header div.logo img {
+    width: 220px;
+}
+
+.warp header ul.des-menu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 0 50px 10px 50px;
+    /* background-color: gray; */
+    text-align: center;
+}
+
+.warp header ul li{
+    width: 15%;
+}
+.warp header ul li:last-child{
+    width: 10%;
+}
+.warp header ul.des-menu li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 2.4rem;
+    /* display: block; */
+    padding: 10px 20px;
+    transition: .3s;
+    /* transition: 0.3s; */
+    /* background-color: red; */
+}
+
+.warp header ul li a:hover {
+    background-color: #535353;
+    color: white;
+    transition: .3s;
+    /* color: rgb(79, 79, 79); */
+}
+
+.warp header ul li:nth-child(7) a:hover {
+    color: black;
+    background-color: white;
+}
+
+
+/*footer*/
+footer{
+    padding: 30px 0;
+    width: 100%;
+    /* background-color: rgb(222, 222, 222); */
+
+    margin: 0 auto;
+    margin-top: 20px;
+}
+/* footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 55px;
+    padding: 20px 80px;
+    border-top: 1px solid black;
+
+}
+
+footer ul li{
+    width: 12.5%;
+    text-align: center;
+}
+footer ul li img {
+    width: 100%;
+}
+
+
+
+footer ul li a:hover {
+    background-color: #535353;
+    color: white;
+}
+
+footer ul li a{
+    padding: none;
+}
+footer ul li:nth-child(1) a:hover {
+    color: black;
+    background-color: white;
+}
+
+footer ul li:nth-child(8) a:hover {
+    color: black;
+    background-color: white;
+}
+footer ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 2rem;
+    display: block;
+    padding: 10px 0;
+    transition: 0.3s;
+} */
+
+footer div.container{
+    border-top: 1px solid black;
+    padding-top: 30px;
+    max-width: 1200px;
+    /* background-color: red; */
+    margin: 0 auto;
+    display: flex;
+
+}
+footer div.img{
+    width: 15%;
+    margin-right: 10px;
+}
+footer div.img img{
+    width: 100%;
+}
+footer div.container>ul{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+footer ul li a.title{
+    text-decoration: none;
+    font-size: 2.4rem;
+    font-family: 'Shippori Mincho B1', serif;
+    color: black;
+    margin-bottom: 10px;
+}
+footer ul li a.inner{
+    font-size: 1.6rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: rgb(74, 74, 74);
+    text-decoration: none;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+footer.des-footer ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul li a.inner i{
+    margin-right: 10px;
+}
+
+
+/*購物車滑入*/
+div.slideshoppingcar{
+    height: 100vh;
+    max-width: 25%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+
+    right: -27%;
+    z-index: 300;
+    display: block;
+    transition: .3s;
+    box-shadow: 0px -20px 20px rgba(0, 0, 0, 0.267);
+}
+div.slideshoppingcarblock{
+    right: 0;
+}
+
+div.bg-color{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 214, 214, 0.747);
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+
+.shop-title{
+    margin-top:5vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Shippori Mincho B1', serif;
+    align-items: center;
+
+}
+div.car{
+    margin-left: 5%;
+}
+div.car p {
+    font-size: 2.8rem;
+
+}
+
+
+
+div.delete-icon{
+    width: 12%;
+    margin-right: 5%;
+}
+div.delete-icon img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*shop-content*/
+
+.shop-content{
+    display: flex;
+    margin-top: 30px;
+}
+
+div.shop-pic{
+    width: 25%;
+    margin-left: 5%;
+}
+div.shop-pic img{
+    width: 100%;
+}
+
+div.shop-text{
+    margin-left: 5%;
+    margin-top: 5px;
+}
+div.shop-text h3{
+    font-size: 2.8rem;
+    font-family: 'Shippori Mincho B1', serif;
+    margin-bottom: 1.4vh;
+}
+div.shop-text p{
+    font-size: 2rem;
+    margin-bottom: 1vh;
+    font-family: 'Amiri', serif;
+}
+
+a.del-link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    color: rgba(128, 128, 128, 0.679);
+}
+
+
+
+div.num {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    /* width: 30%; */
+    border: 1px solid black;
+    /* padding: 5px; */
+    /* width: 32%; */
+}
+
+
+div.shop-total{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+div.num input {
+    width: 3vw;
+
+    text-align: center;
+    border: none;
+    background-color: white;
+}
+
+div.left-icon i{
+    /* width: 1vw; */
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+
+div.right-icon i{
+    text-align: center;
+    /* width: 1vw; */
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    border-left: 1px solid black;
+}
+
+div.shop-price p{
+    font-size: 2.8rem;
+    font-family: 'Amiri', serif;
+
+}
+div.shop-pay{
+    background-color: #3B2121;
+    padding: 2vh 0;
+    position: absolute;
+    width: 100%;;
+    bottom: 0;
+    left: 0;
+}
+div.shop-pay a{
+    text-decoration: none;
+}
+div.shop-pay a p{
+    text-align: center;
+    font-size: 3.6rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+
+
+
+
+
+div.ham{
+    display: none;
+}
+footer.phone-footer{
+    display: none;
+}
+
+div.phone-slidebar{
+    display: none;
+}
+
+@media screen and (max-width:415px){
+    header{
+        position: fixed;
+        z-index: 200;
+        /* background-color: white; */
+        width: 100%;
+
+    }
+    body{
+        background-color: #eeeeee;
+    }
+    article{
+        margin-top: 0 !important;
+    }
+    .warp header div.logo{
+        text-align: left;
+        margin: 0;
+        padding: 15px 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: #fff; */
+        transition: .8s;
+    }
+    
+    .add{
+        background-color: #fff;
+        padding: 5px !important;
+        transition: .8s;
+    }
+
+    .warp header div.logo-pic img{
+        /* display: none; */
+
+        /* width: 20%; */
+        width: 60px;
+        height: 53px;
+    }
+    .warp header ul.des-menu{
+        flex-direction: column;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.883);
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin: 0;
+        z-index: 100;
+        width: 70%;
+        text-align: right;
+        justify-content: flex-start;
+        padding: 0;
+        display: none !important;
+    }
+    article section.sec2{
+        display: flex;
+        flex-direction: column;
+    }
+    .warp header ul li{
+        width: 100%;
+    }
+    .warp header ul li:last-child{
+        width: 100%;
+    }
+    div.ham{
+        display: block;
+        height: 100%;
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        /* font-size: 1.6rem; */
+    }
+    div.hd-icon{
+        display: flex;
+
+    }
+
+    div.hd-line::after{
+        content: "";
+        background-image: url(../images/index/hd_line.png);
+        display: block;
+        width: 18px;
+        height: 2px;
+    }
+    footer{
+        display: none;
+    }
+
+
+    footer.phone-footer{
+        padding: 0;
+        margin: 0;
+        display: block;
+
+        padding: 10px 0;
+    }
+    div.phone-footer-in{
+        padding: 0 5%;
+
+    }
+    .footer-pic{
+        width: 30%;
+    }
+    .footer-pic img{
+        width: 100%;
+    }
+    .footer-list{
+        width: 55%;
+        margin-left: 7%;
+    }
+    .footer-list li{
+        font-size: 1.3rem;
+        font-family: 'Amiri', serif;
+        padding: 3px 0;
+    }
+    .footer-list li span{
+        font-family: 'Shippori Mincho B1', serif;
+    }
+    .footer-flex{
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #000;
+        padding-top: 15px;
+    }
+    div.hd-icon img{
+        width: 18px !important;
+        margin-right: 15px;
+    }
+
+    div.logo-pic{
+        width: 60px;
+        height: 53px;
+    }
+
+
+
+
+
+    /*動畫*/
+    div.hd-line{
+        position: relative;
+        right: 0;
+        display: block;
+        transition: .5s;
+    }
+    .click{
+        right: 235px !important;
+        transform: rotate(135deg);
+        transition: .5s;
+    }
+    div.phone-slidebar{
+        display: block;
+        height: 100vh;
+        text-align: right;
+        width: 60%;
+        background-color: rgba(255, 255, 255, 0.95);
+        position: absolute;
+        top: 0;
+        right: -60%;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    .slide{
+        opacity: 1 !important;
+        right: 0% !important;
+        transition: 0.5s;
+    }
+    div.phone-slidebar li:nth-child(1){
+        margin-top: 40px;
+    }
+    div.phone-slidebar li{
+        margin-bottom: 40px;
+    }
+    div.phone-slidebar a{
+        text-decoration: none;
+        font-size: 2rem;
+        font-family: 'Shippori Mincho B1', serif;
+        color: black;
+        font-weight: 600;
+        padding-right: 20px;
+    }
+}

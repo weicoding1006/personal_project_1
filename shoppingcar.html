@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日和茶集</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+
+
+
+    <!-- 字體-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+
+    <!--粗體 明體-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/nav_footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/hanamin-master/HanaMin.css">
+    <link href="./images/icon.ico" rel="shortcut icon" />
+
+
+    <link rel="stylesheet" href="./css/shoppingcar.css">
+</head>
+
+<body>
+    <div class="bg-color"></div>
+    <div class="warp">
+        <header>
+            <div class="logo add">
+                <div class="logo-pic">
+                    <a href="./index.html"><img src="./images/Logo.png" alt="圖片"></a>
+                </div>
+                <div class="ham">
+                    <div class="hd-icon">
+                        <a href="#"><img src="./images/index/icon _instagram_.png" alt=""></a>
+                        <a href="./shoppingcar.html"><img src="./images/index/icon _shopping cart_.png" alt=""></a>
+                    </div>
+                    <div class="hd-line"></div>
+                    <!-- <i class="fa-solid fa-bars"></i> -->
+                </div>
+            </div>
+            <div class="phone-slidebar">
+                <ul>
+                    <li><a href="./index.html">首頁</a></li>
+                    <li><a href="./about.html">關於我們</a></li>
+                    <li><a href="./contact.html">聯絡我們</a></li>
+                    <li><a href="./eventlist.html">活動資訊</a></li>
+                    <li><a href="./food.html">美味餐點</a></li>
+                    <li><a href="./productList.html">線上商城</a></li>
+                </ul>
+            </div>
+            <ul class="des-menu">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="about.html">關於我們</a></li>
+                <li><a href="contact.html">聯絡我們</a></li>
+                <li><a href="eventlist.html">活動資訊</a></li>
+                <li><a href="food.html">美味餐點</a></li>
+                <li><a href="productList.html">線上商城</a></li>
+                <li class="cardslide"><a href="shoppingcar.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </header>
+
+        <article>
+            <table class="shoppingcar">
+                <thead>
+                    <tr>
+                        <th width="250">
+                            <input type="checkbox" id="check" name="check" class="checkbox">
+                            <span>宅配配送</span>
+                        </th>
+                        <th width="250">
+                            <p>商品訊息</p>
+                        </th>
+                        <th width="150">
+                            <p>售價</p>
+                        </th>
+                        <th width="150">
+                            <p>數量</p>
+                        </th>
+                        <th width="150">
+                            <p>合計</p>
+                        </th>
+                        <th width="250">
+                            <p>操作訂單</p>
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr class="cartList">
+                        <td>
+                            <div class="block1">
+                                <input type="checkbox" class="checkbox">
+                                <span>修改配送方式</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="block2">
+                                <a href="#"><img src="./images/shoppingcar/6.png" alt=""></a>
+                                <p>精選咖啡豆</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="block3">
+                                <p>NT<span class="price">550</span></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="block4">
+                                <i class="fa-solid fa-minus minus-btn"></i>
+                                <input type="text" value="1" class="numinput" disabled>
+                                <i class="fa-solid fa-plus plus-btn"></i>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="block5">
+                                <span class="totalpay">NT550</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="block6">
+                                <p class="des-del">刪除</p>
+                                <p>類似商品</p>
+                            </div>
+                        </td>
+                    </tr>
+
+
+                    <tr class="cartList">
+                        <td>
+                            <div class="block1">
+                                <input type="checkbox" class="checkbox">
+                                <span>修改配送方式</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="block2">
+                                <a href="#"><img src="./images/shoppingcar/5.png" alt=""></a>
+                                <p>二手小物</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="block3">
+                                <p>NT<span class="price">500</span></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="block4">
+                                <i class="fa-solid fa-minus minus-btn"></i>
+                                <input type="text" value="1" class="numinput" disabled>
+                                <i class="fa-solid fa-plus plus-btn"></i>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="block5">
+                                <span class="totalpay">NT500</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="block6">
+                                <p class="des-del">刪除</p>
+                                <p>類似商品</p>
+                            </div>
+                        </td>
+                    </tr>
+
+
+                    <tr class="cartList">
+                        <td>
+                            <div class="block1">
+                                <input type="checkbox" class="checkbox">
+                                <span>修改配送方式</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="block2">
+                                <a href="#"><img src="./images/shoppingcar/3.png" alt=""></a>
+                                <p>攝影集</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="block3">
+                                <p>NT<span class="price">600</span></p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="block4">
+                                <i class="fa-solid fa-minus minus-btn"></i>
+                                <input type="text" value="1" class="numinput" disabled>
+                                <i class="fa-solid fa-plus plus-btn"></i>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="block5">
+                                <span class="totalpay">NT600</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="block6">
+                                <p class="des-del">刪除</p>
+                                <p>類似商品</p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr class="bar">
+                        <td colspan="6"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <section class="sec-block">
+                <div class="sec-left">
+                    <input type="checkbox" class="des-check-all">
+                    <span class="text1">全選</span>
+                    <a href="#"><span class="text2">刪除</span></a>
+                </div>
+                <div class="sec-right">
+
+                    <span>總金額(不含運費)</span>
+                    <span class="total">NT1650</span>
+                    <a href="./pay.html">結帳</a>
+                </div>
+            </section>
+
+
+            <div class="top-block"></div>
+
+            <section class="phone-shoppingcar-title">
+                <div class="shoppingcar-title-left">
+                    <p class="left">購物車(3)</p>
+                </div>
+                <div class="shoppingcar-title-right">
+                    <p class="right">編輯</p>
+                </div>
+            </section>
+
+
+
+            
+            <section class="phone-shoppingcar">
+                <div class="phone-shoppingcar-inner">
+                    <div class="inner-title">
+                        <input type="checkbox" class="check">
+                        <h3>宅配配送</h3>
+                    </div>
+                    <div class="product">
+                        <div class="product-block1">
+                            <input type="checkbox" class="check">
+                            <h3>修改配送方式</h3>
+                        </div>
+
+                        <div class="product-content">
+                            <div class="product-content-pic">
+                                <img src="./images/productinner/12.png" alt="">
+                            </div>
+
+                            <div class="product-content-text">
+                                <a href="./productInner.html">
+                                    <h3>精選咖啡豆</h3>
+                                </a>
+
+                                <div class="type-content">
+                                    <p>甘甜的淡香，低調而優雅</p>
+                                </div>
+
+                                <div class="product-money">
+                                    <p>NT$ <span class="phone-price-total">550</span></p>
+                                </div>
+                                <div class="product-num">
+                                    <div class="phone-num">
+                                        <div class="phone-minus-btn">
+                                            <i class="fa-solid fa-minus minus-btn"></i>
+                                        </div>
+
+
+                                        <input type="text" value="1" class="phone-num-btn">
+
+
+                                        <div class="phone-plus-btn">
+                                            <i class="fa-solid fa-plus plus-btn"></i>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="phone-del">
+                                        <p>刪除</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="product">
+                        <div class="product-block1">
+                            <input type="checkbox" class="check">
+                            <h3>修改配送方式</h3>
+                        </div>
+
+                        <div class="product-content">
+                            <div class="product-content-pic">
+                                <img src="./images/productinner/3.png" alt="">
+                            </div>
+
+                            <div class="product-content-text">
+                                <a href="./productInner.html">
+                                    <h3>攝影集</h3>
+                                </a>
+
+                                <div class="type-content1">
+                                    <p>紀錄各種活動的精采瞬間</p>
+                                </div>
+
+                                <div class="product-money">
+                                    <p>NT$ <span class="phone-price-total">600</span></p>
+                                </div>
+                                <div class="product-num">
+                                    <div class="phone-num">
+                                        <div class="phone-minus-btn">
+                                            <i class="fa-solid fa-minus minus-btn"></i>
+                                        </div>
+
+                                        <input type="text" value="1" class="phone-num-btn">
+
+
+
+                                        <div class="phone-plus-btn">
+                                            <i class="fa-solid fa-plus plus-btn"></i>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="phone-del">
+                                        <p>刪除</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="product" style="border: none;">
+                        <div class="product-block1">
+                            <input type="checkbox" class="check">
+                            <h3>修改配送方式</h3>
+                        </div>
+
+                        <div class="product-content">
+                            <div class="product-content-pic">
+                                <img src="./images/productinner/5.png" alt="">
+                            </div>
+
+                            <div class="product-content-text">
+                                <a href="./productInner.html">
+                                    <h3>二手小物</h3>
+                                </a>
+
+                                <div class="type-content">
+                                    <p>充滿驚喜的二手小物</p>
+                                </div>
+
+                                <div class="product-money">
+                                    <p>NT$ <span class="phone-price-total">500</span></p>
+                                </div>
+                                <div class="product-num">
+                                    <div class="phone-num">
+                                        <div class="phone-minus-btn">
+                                            <i class="fa-solid fa-minus minus-btn"></i>
+                                        </div>
+
+
+                                        <input type="text" value="1" class="phone-num-btn">
+
+
+                                        <div class="phone-plus-btn">
+                                            <i class="fa-solid fa-plus plus-btn"></i>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="phone-del">
+                                        <p>刪除</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="phone-sec3">
+                <div class="phone-sec3-title">
+                    <h3>其他人也買了</h3>
+                </div>
+                <div class="product-warp">
+                    <div class="productlist">
+                        <div class="product-pic">
+                            <img src="./images/productlist/6.png" alt="">
+                        </div>
+                        <div class="productlist-content">
+                            <h3>精選咖啡豆</h3>
+                            <p>NT$550</p>
+                        </div>
+                    </div>
+                    <div class="productlist">
+                        <div class="product-pic">
+                            <img src="./images/productlist/2.png" alt="">
+                        </div>
+                        <div class="productlist-content">
+                            <h3>茶葉</h3>
+                            <p>NT$600</p>
+                        </div>
+                    </div>
+                    <div class="productlist">
+                        <div class="product-pic">
+                            <img src="./images/productlist/3.png" alt="">
+                        </div>
+                        <div class="productlist-content">
+                            <h3>攝影集</h3>
+                            <p>NT$600</p>
+                        </div>
+                    </div>
+                    <div class="productlist">
+                        <div class="product-pic">
+                            <img src="./images/productlist/4.png" alt="">
+                        </div>
+                        <div class="productlist-content">
+                            <h3>茶葉</h3>
+                            <p>NT$450</p>
+                        </div>
+                    </div>
+                    <div class="productlist">
+                        <div class="product-pic">
+                            <img src="./images/productlist/5.png" alt="">
+                        </div>
+                        <div class="productlist-content">
+                            <h3>二手小物</h3>
+                            <p>NT$600</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+            <section class="sec3">
+                <div class="sec3-warp">
+                    <div class="sec3-top">
+                        <h3>其他人也買了..</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/productinner/12.png" alt="">
+                                    <div class="text-content">
+                                        <h4>精選咖啡豆</h4>
+                                        <p>NT 1499</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/productinner/1.png" alt="">
+                                    <div class="text-content">
+                                        <h4>手工餅乾</h4>
+                                        <p>NT 150</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/productinner/7.png" alt="">
+                                    <div class="text-content">
+                                        <h4>茶葉</h4>
+                                        <p>NT 800</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/productinner/2.png" alt="">
+                                    <div class="text-content">
+                                        <h4>茶葉</h4>
+                                        <p>NT 800</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/productinner/5.png" alt="">
+                                    <div class="text-content">
+                                        <h4>茶葉</h4>
+                                        <p>NT 800</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sec3-bottom">
+                        <h3>其他商品</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/productinner/7.png" alt="">
+                                    <div class="text-content">
+                                        <h4>精選咖啡豆</h4>
+                                        <p>NT 1499</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/productinner/5.png" alt="">
+                                    <div class="text-content">
+                                        <h4>二手小物</h4>
+                                        <p>NT 150</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/productinner/3.png" alt="">
+                                    <div class="text-content">
+                                        <h4>攝影集</h4>
+                                        <p>NT 800</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/productinner/2.png" alt="">
+                                    <div class="text-content">
+                                        <h4>茶葉</h4>
+                                        <p>NT 800</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/productinner/5.png" alt="">
+                                    <div class="text-content">
+                                        <h4>二手小物</h4>
+                                        <p>NT 800</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+    </div>
+
+
+    <div class="slideshoppingcar">
+        <div class="shop-title">
+            <div class="car">
+                <p>您的購物車</p>
+            </div>
+            <div class="delete-icon">
+                <a href="#"><img src="./images/index/delete.png" alt=""></a>
+            </div>
+        </div>
+        <div class="product1">
+
+            <div class="shop-content">
+                <div class="shop-pic">
+                    <img src="./images/shoppingcar/3.png" alt="">
+                </div>
+                <div class="shop-text">
+                    <h3>攝影集</h3>
+                    <p>NT$ <span class="slide-product-price">550</span> </p>
+                    <a href="#" class="del-link"><i class="fa-regular fa-trash-can"></i></a>
+                </div>
+            </div>
+            <div class="shop-total">
+                <div class="num">
+                    <div class="left-icon">
+                        <i class="fa-solid fa-minus minus-btn"></i>
+                    </div>
+                    <div class="center-input">
+                        <input type="text" value="1" class="slide-numinput" disabled>
+                    </div>
+
+                    <div class="right-icon">
+                        <i class="fa-solid fa-plus plus-btn"></i>
+                    </div>
+                </div>
+                <div class="shop-price">
+                    <p>NT$<span class="slide-price">550</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="product2">
+            <div class="shop-content">
+                <div class="shop-pic">
+                    <img src="./images/shoppingcar/5.png" alt="">
+                </div>
+                <div class="shop-text">
+                    <h3>二手小物</h3>
+                    <p>NT$ <span class="slide-product-price">500</span> </p>
+                    <a href="#" class="del-link"><i class="fa-regular fa-trash-can"></i></a>
+                </div>
+            </div>
+            <div class="shop-total">
+                <div class="num">
+                    <div class="left-icon">
+                        <i class="fa-solid fa-minus minus-btn"></i>
+                    </div>
+                    <input type="text" value="1" class="slide-numinput" disabled>
+                    <div class="right-icon">
+                        <i class="fa-solid fa-plus plus-btn"></i>
+                    </div>
+                </div>
+                <div class="shop-price">
+                    <p>NT$<span class="slide-price">500</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="shop-pay">
+            <a href="shoppingcar.html">
+                <p>結帳</p>
+            </a>
+        </div>
+    </div>
+
+
+
+
+    <footer class="phone-footer">
+        <div class="phone-footer-in">
+            <div class="footer-flex">
+                <div class="footer-pic">
+                    <img src="./images/Logo.png" alt="">
+                </div>
+                <ul class="footer-list">
+                    <li>HOURS:8:00-21:00</li>
+                    <li>OPEN:Wed / Fri / 2nd&4th Sun</li>
+                    <li>ADDRESS:<span>台北市北投區菁山路</span></li>
+                    <li>MAIL:weistudio@gmail.com</li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="des-footer">
+        <div class="container">
+            <div class="img">
+                <a href="#">
+                    <img src="./images/Logo.png" alt="">
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <a href="about.html" class="title">關於我們</a>
+                    <a href="about.html" class="inner">品牌由來</a>
+                    <a href="about.html" class="inner">日和故事集</a>
+                </li>
+
+                <li>
+                    <a href="eventlist.html" class="title">活動資訊</a>
+                    <a href="eventlist.html" class="inner">報名須知</a>
+                    <a href="eventlist.html" class="inner">夏日音樂祭</a>
+                    <a href="eventlist.html" class="inner">日和野餐聚</a>
+                    <a href="eventlist.html" class="inner">攝影活動</a>
+                </li>
+                <li>
+                    <a href="food.html" class="title">美味餐點</a>
+                    <a href="food.html" class="inner">熱門餐點</a>
+                    <a href="food.html" class="inner">季節限定</a>
+                    <a href="food.html" class="inner">嚴選系列</a>
+                </li>
+                <li>
+                    <a href="productList.html" class="title">線上商城</a>
+                    <a href="productList.html" class="inner">寄送資訊</a>
+                    <a href="productList.html" class="inner">付款方式</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="title">聯絡我們</a>
+                    <a href="contact.html" class="inner"><i class="fa-solid fa-phone"></i>02-4092072</a>
+                    <a href="contact.html" class="inner"><i class="fa-solid fa-envelope"></i>weistudio@gmail.com</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </footer>
+
+
+
+
+    <div class="phone-total">
+        <div class="phone-total-content">
+            <div class="left">
+                <input type="checkbox" class="ckeck-all">
+                <p>全選</p>
+            </div>
+            <div class="right">
+                <p>總金額:</p>
+                <p class="money">NT$ <span class="phone-all-total">0</span></p>
+                <p>不含運費</p>
+            </div>
+        </div>
+        <div class="phone-pay-btn">
+            <button><a href="./pay.html">結帳</a></button>
+        </div>
+    </div>
+
+
+    <script src="./js/shoppingcar.js"></script>
+</body>
+
+</html>

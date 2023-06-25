@@ -1,0 +1,1112 @@
+/*article*/
+article {
+    margin-top: 50px;
+}
+
+
+.flexslider h2 {
+    font-family: 'Amiri', serif;
+    position: absolute;
+    font-size: 4.8rem;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 10;
+}
+
+/*article sec2----------------------------*/
+
+article section.sec2 {
+    display: flex;
+
+}
+
+article section.sec2 div.sec2-left {
+    margin-top: 90px;
+    padding-left: 70px;
+    width: 55%;
+    box-sizing: border-box;
+}
+
+article section.sec2 div.sec2-left img {
+    /* width: 592px; */
+    width: 90%;
+}
+
+article section.sec2 div.sec2-right {
+    /* background-color: red; */
+    width: 40%;
+    /*為何可以剛好占滿剩下的空間?*/
+    text-align: center;
+    margin-top: 115px;
+    box-sizing: border-box;
+    position: relative;
+    /* z-index: 1; */
+}
+
+
+
+
+article section.sec2 div.sec2-right img.logo {
+    width: 35%;
+    margin-bottom: 30px;
+}
+
+article section.sec2 div.sec2-right p {
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+article section.sec2 div.sec2-right a {
+    /* background-image: url(../images/index/line_black.png);
+    background-repeat: no-repeat;
+    background-position: right center; */
+    text-decoration: none;
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 2.4rem;
+
+    color: rgb(0, 0, 0);
+    transition: 0.8s;
+
+}
+
+.sec2-line:hover a {
+    /* font-size: 2.4rem; 為什麼無法調整? */
+}
+
+.sec2-line {
+    position: relative;
+    cursor: pointer;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.sec2-line:hover .sec2-line-pic {
+    right: 20px;
+}
+
+.sec2-line-pic {
+    display: inline-block;
+    position: absolute;
+    right: 28px;
+    bottom: 4px;
+    transition: 0.8s;
+}
+
+.sec2-line-pic img {
+    width: 70%;
+    vertical-align: bottom;
+}
+
+/*article sec3----------------------------*/
+
+
+article section.sec3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+article section.sec3 div.sec3-left {
+    padding-top: 180px;
+    padding-left: 100px;
+    padding-right: 165px;
+    width: 50%;
+}
+
+article section.sec3 div.sec3-left h2 {
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 3.2rem;
+    /* margin-bottom: 25px; */
+    padding-bottom: 15px;
+    /* border-bottom: 2px solid black; */
+    /* margin-bottom: 15px; */
+}
+
+article section.sec3 div.sec3-left h2::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    margin-top: 15px;
+    background-color: #464646;
+    transition: 3s;
+    transition-delay: 1s;
+}
+
+article section.sec3 div.sec3-left h2.aos-animate::after {
+    width: 100%;
+}
+
+article section.sec3 div.sec3-left p.desktop-text {
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+article section.sec3 div.sec3-right {
+    /* width: 100%; */
+    margin-top: 115px;
+    margin-right: 80px;
+    margin-bottom: 120px;
+    width: 80%;
+    position: relative;
+}
+
+.sec3-pic {
+    background-image: url(../images/index/6.jpg);
+    height: 957px;
+    background-repeat: no-repeat;
+}
+
+article section.sec3 div.sec3-left img {
+    width: 100%;
+}
+
+article section.sec3 div.sec3-right img {
+    /* display: block; */
+    width: 70%;
+}
+
+.sec3-link {
+    position: relative;
+    bottom: 40px;
+    width: 40%;
+    cursor: pointer;
+}
+
+.sec3-link:hover div.line {
+    left: 110px;
+}
+
+.sec3-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Shippori Mincho B1', serif;
+    padding-left: 20px;
+}
+
+div.line {
+    position: absolute;
+    top: 6px;
+    left: 105px;
+    transition: 0.8s;
+}
+
+
+
+/*article sec4----------------------------*/
+article section.sec4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    background-color: #F4F4F4;
+    padding: 30px 0px;
+}
+
+.sec4-list {
+    width: 30%;
+    justify-items: center;
+}
+
+.sec4-list li {
+    text-align: left;
+    padding-left: 80px;
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 2rem;
+    line-height: 2;
+}
+
+.sec4-center {
+    width: 30%;
+    margin-right: 30px;
+}
+
+.sec4-right {
+    width: 30%;
+
+}
+
+.sec4-center img {
+    width: 100%;
+}
+
+.sec4-right img {
+    width: 100%;
+}
+
+article section.sec4 ul li:nth-child(3) {
+    cursor: pointer;
+    position: relative;
+    width: 50%;
+}
+
+article section.sec4 ul li:nth-child(3):hover .sec4-line {
+    left: 185px;
+}
+
+div.sec4-line {
+    position: absolute;
+    top: 3px;
+    left: 180px;
+    transition: 0.8s;
+}
+
+div.sec4-line img {
+    width: 70%;
+}
+
+article section.sec4 ul li a {
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: black;
+    /* background-color: #535353; */
+    /* display: block; */
+    /*設為block會自動變最大寬度?*/
+    /* padding: 10px 17px; */
+    text-align: center;
+}
+
+
+article section.sec4 ul li:nth-child(2) {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/*article sec5----------------------------*/
+article section.sec5 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+/* .sec5 img {
+    width: 100%;
+} */
+.sec5 {
+    margin-bottom: 150px;
+}
+
+.sec5 ul {
+    display: flex;
+    height: 300px;
+}
+
+.sec5 ul li {
+    background-size: cover;
+    transition: .5s;
+    /* width: 400px; */
+}
+
+.sec5 ul li.item1 {
+    background-image: url(../images/food/16.png);
+    background-position: center right;
+    flex-grow: 1;
+}
+
+.sec5 ul li.item1 a {
+    line-height: 300px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: 0.5s;
+}
+
+.sec5 ul li.item1 a p {
+    font-size: 4.8rem;
+    font-family: 'Amiri', serif;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.sec5 ul li.item1 a p:hover {
+    font-size: 6.4rem;
+    opacity: 1;
+}
+
+.sec5 ul li.item1 a:hover {
+    background-color: rgba(255, 255, 255, 0.666);
+
+}
+
+.sec5 ul li.item1:hover {
+    flex-grow: 3;
+}
+
+
+
+
+.sec5 ul li.item2 {
+    background-image: url(../images/food/18.png);
+    background-position: center right;
+    flex-grow: 1;
+}
+
+.sec5 ul li.item2:hover {
+    flex-grow: 3;
+}
+
+.sec5 ul li.item2 a {
+    line-height: 300px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: 0.5s;
+}
+
+.sec5 ul li.item2 a p {
+    font-size: 4.8rem;
+    font-family: 'Amiri', serif;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.sec5 ul li.item2 a p:hover {
+    font-size: 6.4rem;
+    opacity: 1;
+}
+
+.sec5 ul li.item2 a:hover {
+    background-color: rgba(255, 255, 255, 0.666);
+
+}
+
+.sec5 ul li.item2:hover {
+    flex-grow: 3;
+}
+
+
+
+
+.sec5 ul li.item3 {
+    background-image: url(../images/food/17.png);
+
+    background-position: center center;
+    flex-grow: 1;
+}
+
+.sec5 ul li.item3:hover {
+    flex-grow: 3;
+}
+
+.sec5 ul li.item3 a {
+    line-height: 300px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: 0.5s;
+}
+
+.sec5 ul li.item3 a p {
+    font-size: 4.8rem;
+    font-family: 'Amiri', serif;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.sec5 ul li.item3 a p:hover {
+    font-size: 6.4rem;
+    opacity: 1;
+}
+
+.sec5 ul li.item3 a:hover {
+    background-color: rgba(255, 255, 255, 0.666);
+
+}
+
+.sec5 ul li.item3:hover {
+    flex-grow: 3;
+}
+
+
+
+article section.sec5 h2 {
+    text-align: center;
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 3.6rem;
+    margin-bottom: 25px;
+}
+
+
+/*article product*/
+div.product-warp {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+ul.product {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+
+.product-pic{
+    overflow: hidden;
+}
+
+article ul.product li img {
+    width: 100%;
+    transition: 1s;
+    display: block;
+}
+/* article ul.product li img:hover{
+    transform: scale(1.05);
+} */
+article ul.product li div.product-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0 20px 30px;
+}
+
+article ul.product li div.product-name h2 {
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 2.4rem;
+    transition: 1s;
+    /* padding: 30px 0 15px 30px; */
+}
+
+article ul.product li div.product-name h3 {
+    font-family: 'Amiri', serif;
+    font-size: 2.4rem;
+    padding-right: 10px;
+    color: #7f7f7f;
+    transition: 1s;
+}
+
+
+article ul.product li p {
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 1.6rem;
+    color: #464646;
+    line-height: 1.6;
+    margin-left: 45px;
+}
+
+article ul.product li a.btn {
+    text-decoration: none;
+    background-color: #535353;
+    color: white;
+    padding: 10px 30px;
+    font-size: 3.2rem;
+    font-family: 'Amiri', serif;
+    font-weight: 400;
+    display: inline-block;
+}
+
+article ul.product li:nth-child(5) {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+article ul.product li {
+    position: relative;
+    width: 25%;
+}
+/* article ul.product li:hover div.product-name h2{
+    transform: scale(1.1);
+} 
+article ul.product li:hover div.product-name h3{
+    transform: scale(1.2);
+} */
+article ul.product li:hover div.product-pic img{
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+.content {
+    padding-bottom: 30px;
+}
+
+.content::after {
+    content: "";
+    position: absolute;
+    top: 150px;
+    left: 0;
+    height: 0;
+    width: 5px;
+    background-color: rgb(221, 221, 221);
+    transition: 2.5s;
+    mix-blend-mode: exclusion;
+    transition-delay: .8s;
+}
+
+.content.aos-animate::after {
+    height: 250px;
+    /* width: 6px; */
+    /* left: 0; */
+}
+
+/* article ul.product li div.line {
+    width: 5px;
+    height: 220px;
+    background-color: #535353;
+    position: absolute;
+    top: 180px;
+    left: 0;
+    transition: 0.5s ease-in-out;
+} */
+
+/* article ul.product li:hover div.line {
+    height: 250px;
+} */
+
+article ul.product li:nth-child(6) {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div.product-warp>p {
+    font-size: 6.4rem;
+    transform: rotate(90deg);
+    font-family: 'Amiri', serif;
+    /* position: relative; */
+    position: absolute;
+    top: 50px;
+    left: -20px;
+}
+
+a.productlist {
+    text-decoration: none;
+    /* color: white; */
+}
+
+a.productlist h2 {
+    color: black;
+
+}
+
+
+/* ul.product li img{
+    opacity: 1;
+    transition: 0.5s;
+    transform-origin: center center;
+}
+ul.product li img:hover{
+    opacity: 0.5;
+} */
+
+.btn2 {
+    text-decoration: none;
+    background-color: #535353;
+    color: white;
+    padding: 10px 30px;
+    font-size: 3.2rem;
+    font-family: 'Amiri', serif;
+    font-weight: 400;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+
+.sec2-right div.color-block {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    display: none;
+}
+
+
+
+
+
+
+
+
+div.num {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    /* width: 30%; */
+    border: 1px solid black;
+    /* padding: 5px; */
+
+}
+
+ /* div.left-icon i{
+    width: 1vw;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+
+div.right-icon i{
+    text-align: center;
+    width: 1vw;
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    border-left: 1px solid black;
+}
+
+div.shop-price p{
+    font-size: 2.8rem;
+    font-family: 'Amiri', serif;
+
+}
+div.shop-pay{
+    background-color: #3B2121;
+    padding: 2vh 0;
+    position: absolute;
+    width: 100%;;
+    bottom: 0;
+    left: 0;
+}
+div.shop-pay a{
+    text-decoration: none;
+}
+div.shop-pay a p{
+    text-align: center;
+    font-size: 3.6rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Shippori Mincho B1', serif;
+} */
+
+
+
+div.backtotop{
+    /* display: none; */
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 30px;
+}
+
+
+div.backtotop a{
+    display: block;
+    opacity: 1;
+    transition: 1s !important;
+}
+/* .show{
+    opacity: 1 !important;
+    transition: 1s !important;
+} */
+div.backtotop img{
+    width: 100%;
+}
+
+.sec3 p.phone-text{
+    display: none;
+}
+
+div.phone-flexslider{
+    display: none;
+}
+
+.sec4-phone{
+    display: none;
+}
+div.phone-product-warp{
+    display: none;
+}
+div.swiper-container{
+    display: none;
+}
+
+section.sec2-phone{
+    display: none;
+}
+
+
+@media screen and (max-width:415px){
+    section.sec2{
+        display: none !important;
+    }
+    section.sec2-phone{
+        display: block;
+    }
+    div.backtotop{
+        display: none;
+    }
+    div.flexslider{
+        display: none;
+    }
+    div.phone-flexslider{
+        display: block;
+    }
+    div.phone-flexslider ul{
+        height: 100vh;
+        width: 100%;
+    }
+    div.phone-flexslider ul li{
+        background-size: cover;
+        background-position: center;
+        background-image: url(../images/contact/2.png);
+        height: 100%;
+        z-index: 50;
+        position: relative;
+    }
+    div.phone-flexslider ul li h1{
+        position: absolute;
+        font-size: 3.6rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        font-family: 'Shippori Mincho B1', serif;
+        font-weight: 600;
+        text-align: center;
+        line-height: 1.2;
+    }
+    div.phone-flexslider ul li h1 span{
+        font-size: 2.4rem;
+    }
+    /* article section.sec2{
+        margin-top: 60px;
+        margin-bottom: 0px;
+    }
+    article section.sec2 div.sec2-right img.logo {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+    article section.sec2 div.sec2-right p{
+        font-size: 1.6rem;
+        margin-bottom: 25px;
+    }
+    article section.sec2 div.sec2-right a{
+        font-size: 2rem;
+    }
+    .sec2-line-pic{
+        right: 35px;
+    }
+    article section.sec2 div.sec2-left{
+        margin: 0;
+        padding: 0;
+        width: 80%;
+        align-self: center;
+    }
+    article section.sec2 div.sec2-left img{
+        width: 100%;
+    }
+    article section.sec2 div.sec2-right{
+        margin: 0;
+        width: 100%;
+        margin-top: 20px;
+    } */
+
+    section.sec2-phone div.sec2-left{
+        width: 100%;
+        text-align: center;
+        margin-top: 60px;
+    }
+    section.sec2-phone div.sec2-left img{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    section.sec2-phone div.sec2-right{
+        text-align: center;
+        margin: 40px 0;
+    }
+    section.sec2-phone div.sec2-right img{
+        width: 35%;
+    }
+    section.sec2-phone div.sec2-right p{
+        font-size: 1.4rem;
+        margin: 25px 0 15px 0;
+        line-height: 1.4;
+        font-family: 'Shippori Mincho B1', serif;
+    }
+
+    section.sec2-phone div.sec2-right a{
+        text-decoration: none;
+        font-size: 1.6rem;
+        line-height: 1.4;
+        font-family: 'Shippori Mincho B1', serif;
+        color: black;
+    }
+    .sec2-line-pic{
+        width: 35%;
+        bottom: 5px;
+    }
+    .flexslider h2{
+        display: none;
+    }
+    article section.sec3{
+        margin-top: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec3-pic{
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        margin: 0 20px;
+    }
+    article section.sec3 div.sec3-left p.desktop-text{
+        display: none;
+    }
+    .sec3 p.phone-text{
+        display: block;
+        font-size: 1.6rem;
+        font-family: 'Shippori Mincho B1', serif;
+        margin-bottom: 10px;
+        line-height: 1.6;
+    }
+    article section.sec3 div.sec3-right{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        order: 0;
+    }
+    article section.sec3 div.sec3-left{
+        padding: 0;
+        padding-top:50px;
+        padding-bottom: 50px;
+        order: 1;
+        padding-right: 0;
+        width: 60%;
+    }
+    article section.sec3 div.sec3-left h2{
+        padding-bottom: 10px;
+    }
+
+    article section.sec3 div.sec3-left h2::after{
+        height: 1px;
+    }
+    article section.sec3 div.sec3-left
+    article section.sec4{
+        display: none;
+    }
+    .sec5{
+        margin-bottom: 650px;
+        display: none;
+    }
+
+    .sec3-link a{
+        padding-left: 30px;
+    }
+    div.line{
+        left: 115px;
+    }
+    
+    .sec4{
+        display: none !important;
+    }
+    .sec4-phone{
+        display: block;
+        position: relative;
+    }
+    h2.sec4-phone-title{
+        text-align: center;
+        font-size: 2.4rem;
+        font-family: 'Shippori Mincho B1', serif;
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+    .sec4-phone div.sec4-phone-pic{
+        background-image: url(../images/food/18.png);
+        width: 100%;
+        height: 95vw;
+        background-size: cover;
+        background-position: top center;
+    }
+    .sec4-phone-content{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 15px 5%;
+        background-color: rgba(255, 255, 255, 0.759);
+    }
+    .sec4-phone-content p{
+        font-size: 1.6rem;
+        font-family: 'Shippori Mincho B1', serif;
+        margin-bottom: 15px;
+        line-height: 1.2;
+        color: block;
+    }
+    .sec4-phone-content a{
+        font-size: 1.8rem;
+        text-decoration: none;
+        color: black;
+        font-family: 'Amiri', serif;
+        display: block;
+        position: relative;
+    }
+    .sec4-phone-content a::after{
+        content: "";
+        width: 40px;
+        height: 13px;
+        background-image: url(../images/index/line_black.png);
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 58px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .sec4-phone-content h2{
+        font-size: 2.4rem;
+        font-family: 'Shippori Mincho B1', serif;
+        margin-bottom: 20px;
+        color: black;
+    }
+    div.product-warp{
+        display: none;
+
+    }    
+    div.phone-product-warp{
+        display: block;
+        margin-top: 50px;
+        padding: 0 5%;
+        padding-bottom: 50px;
+    }
+    div.phone-product-warp h2{
+        text-align: center;
+        font-family: 'Amiri', serif;
+        font-size: 2.4rem;
+        margin-bottom: 20px;
+    } 
+    div.phone-product-warp li{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    div.phone-product-warp li:nth-child(4){
+        margin-bottom: 0;
+    }
+    p.product-title{
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+    a.phone-product-content{
+        text-decoration: none;
+        font-size: 1.4rem;
+        line-height: 1.6;
+        width: 48%;
+        color: black;
+        font-family: 'Shippori Mincho B1', serif;
+        margin-left: 8%;
+    }
+    div.phone-product-warp img{
+        display: block;
+    }
+    div.phone-product-warp ul{
+        margin-bottom: 50px;
+    }
+    div.phone-product-warp-link{
+        position: relative;
+    }
+    div.phone-product-warp-link > a{
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        display: table;
+        color: black;
+        font-size: 2rem;
+        font-family: 'Amiri', serif;
+
+    }
+    div.phone-product-warp-link > a::after{
+        content: "";
+        background-image: url(../images/index/line_black.png);
+        width: 50px;
+        height: 11px;
+        display: block;
+        position: absolute;
+        top: 3px;
+        right: 103px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+
+
+
+
+
+
+    div.swiper-container{
+        display: block;
+        /* padding: 0 5%; */
+        height: 100vh;
+        overflow: hidden;
+    }
+
+
+    .swiper-slide {
+        width: auto;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+      }
+
+      .slide1 {
+        background-image: url('../images/eventlist/phone2.png');
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        z-index: 50;
+        position: relative;
+      }
+      
+      .slide2 {
+        background-image: url('../images/food/Mask\ group\ \(3\).png');
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        z-index: 50;
+        position: relative;
+      }
+
+      
+      .slide3 {
+        background-image: url('../images/food/Mask\ group\ \(4\).png');
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        z-index: 50;
+        position: relative;
+      }
+
+      p.slide-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 3.6rem;
+        font-family: 'Shippori Mincho B1', serif;
+        font-weight: 500;
+    }
+    p.slide-text span{
+        font-size: 2rem;
+        font-family: 'Shippori Mincho B1', serif;
+        font-weight: 500;
+    }
+}
+
+

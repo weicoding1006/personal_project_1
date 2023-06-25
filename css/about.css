@@ -1,0 +1,481 @@
+/*article sec1*/
+
+article {
+    margin-top: 50px;
+}
+
+.flexslider {
+    position: relative;
+}
+
+.flexslider ul {
+    z-index: -1;
+}
+
+.flexslider h2 {
+    font-family: 'Amiri', serif;
+    position: absolute;
+    font-size: 4.8rem;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 10;
+}
+body{
+    overflow-x: hidden;
+}
+
+/*article sec2-------------------------------*/
+.sec2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 50px;
+    /* display: none; */
+}
+
+.sec2 div.sec2-left {
+    width: 50%;
+    text-align: right;
+}
+
+.sec2 div.sec2-right {
+    width: 50%;
+}
+
+.sec2 div.sec2-left img {
+    /* width: 387px; */
+    padding-right: 10px;
+    width: 65%;
+    box-sizing: border-box;
+}
+
+.sec2 div.sec2-right {
+    z-index: 1;
+}
+
+.sec2 div.sec2-right img {
+    /* width: 384px; */
+    padding-left: 10px;
+    box-shadow: 50px 50px 0px #F4F4F4;
+    width: 60%;
+}
+
+/* .sec2 div.sec2-shadow{
+    background-color: #F4F4F4;
+    width: 392px;
+    height: 527px;
+    position: absolute;
+    right: 150px;
+    top: 50px;
+}
+.sec2 div.sec2-shadow div.link{
+    height: 100%;
+    position: relative;
+}
+.sec2 div.sec2-shadow div.link a{
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    color: black;
+    padding: 10px ;
+    font-size: 20px;
+    font-family: HanaMin;
+    z-index: 0;
+    margin-right: 40px;
+} */
+
+/*article sec3-------------------------------*/
+.sec3 {
+    margin-left: 200px;
+    position: relative;
+    top: -85px;
+    z-index: -2;
+}
+
+div.sec3-content {
+    display: inline-block;
+    border: 1px solid #7E7E7E;
+    text-align: center;
+}
+
+div.sec3-content img {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    width: 130px;
+}
+
+div.sec3-content p {
+    font-size: 2rem;
+    line-height: 1.8;
+    font-family: 'Shippori Mincho B1', serif;
+    margin: 0 140px;
+    margin-bottom: 55px;
+
+}
+
+/*article sec4-------------------------------*/
+.sec4 {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: -30px;
+    /*.sec3設定top-100px 這裡如果不設定-數 間距過大*/
+    /* height: 592px; */
+    padding: 50px 0;
+    background-color: #ECECEC;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.sec4-left {
+    width: 31.3333%;
+    margin-right: 20px;
+}
+
+.sec4-center {
+    width: 31.3333%;
+    margin-right: 50px;
+}
+
+.sec4-list {
+    width: 31.3333%;
+}
+
+.sec4 img {
+    width: 100%;
+}
+
+
+.sec4 ul li p {
+    font-size: 2rem;
+    line-height: 1.8;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.sec4 ul li:nth-child(1) {
+    margin-bottom: 45px;
+}
+
+.sec4 ul li:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.sec4 ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px 25px;
+    background-color: #535353;
+    display: inline-block;
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 2.5rem;
+}
+
+div.sec4-warp {
+    max-width: 1200px;
+    position: relative;
+}
+
+div.sec4-warp>p {
+    font-size: 6.4rem;
+    font-family: 'Amiri', serif;
+    position: absolute;
+    top: 65px;
+    left: -45px;
+    transform: rotate(90deg);
+}
+
+
+/*article sec5-------------------------------*/
+.sec5 {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec5 div.sec5-left {
+    margin-top: 30px;
+    margin-left: 95px;
+    /* margin-right: 80px; */
+}
+
+.sec5 div.sec5-left li {
+    font-size: 2rem;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+
+.sec5 div.sec5-left li:nth-child(1) p {
+    font-family: 'Amiri', serif;
+    margin-bottom: 15px;
+}
+
+.sec5 div.sec5-left li:nth-child(2) p {
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+
+.sec5 div.sec5-left li:nth-child(2) p span {
+    font-family: 'Amiri', serif;
+}
+
+.sec5 div.sec5-left li:nth-child(3) p {
+    margin-bottom: 20px;
+
+}
+
+.sec5 div.sec5-left li:nth-child(4) p {
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.sec5 div.sec5-left li:nth-child(5) p {
+    line-height: 1.4;
+}
+
+.sec5 div.sec5-left {
+    width: 40%;
+}
+
+.sec5 div.sec5-right {
+    width: 60%;
+    margin-right: 20px;
+}
+
+.sec5 div.sec5-right img {
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.phone-sec1{
+    display: none;
+}
+section.phone-sec2{
+    display: none;
+}
+section.phone-sec3{
+    display: none;
+}
+section.phone-sec4{
+    display: none;
+}
+section.phone-sec5{
+    display: none;
+}
+section.phone-sec6{
+    display: none;
+}
+
+@media screen and (max-width:415px){
+    .flexslider{
+        display: none;
+    }
+    section.sec2{
+        display: none !important;
+    }
+    div.sec3-content{
+        display: none;
+    }
+    div.sec4-warp>p{
+        display: none;
+    }
+
+    section.sec4{
+        display: none;
+    }
+
+    section.sec5{
+        display: none;
+    }
+
+
+
+    section.phone-sec1{
+        display: block;
+        padding-top: 100px;
+        padding: 100px 10px 0 10px;
+    }
+    section.phone-sec1 h2{
+        text-align: center;
+        font-size: 2.8rem;
+        font-family: 'Amiri', serif;
+        position: relative;
+        top: 14px;
+        font-weight: 500;
+    }
+
+    .phone-sec1 div.sec1-pic{
+        background-image: url(../images/about/1.png);
+        width: 100%;
+        height: 47vw;
+        min-height: 490px;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    section.phone-sec2{
+        display: block;
+        text-align: center;
+    }
+
+    div.sec2-phone-pic{
+        width: 100%;
+        padding: 50px 0 20px 0;
+    }
+    div.sec2-phone-pic img{
+        width: 30%;
+    }
+    section.phone-sec2 p{
+        font-size: 1.4rem;
+        font-family: 'Shippori Mincho B1', serif;
+        line-height: 1.8;
+    }
+
+
+
+    section.phone-sec3{
+        display: block;
+        margin-top: 40px;
+    }
+
+    div.phone-sec3-block{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    div.phone-sec3-left{
+        width: 45%;
+        margin-right: 1%;
+    }
+    div.phone-sec3-left img{
+        width: 100%;
+    }
+    div.phone-sec3-right{
+        width: 45%;
+        margin-left: 1%;
+    }
+    div.phone-sec3-right img{
+        width: 100%;
+    }
+
+    section.phone-sec4{
+        display: block;
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    section.phone-sec4 p{
+        font-size: 1.4rem;
+        font-family: 'Shippori Mincho B1', serif;
+        line-height: 1.8;
+        margin-bottom: 40px;
+    }
+    section.phone-sec5{
+        display: block;
+
+    }
+
+    div.phone-sec5-pic{
+        background-image: url(../images/about/12.png);
+        width: 100%;
+        /* height: 40vh; */
+        background-size: cover;
+        background-position:center;
+        position: relative;
+    }
+
+    div.phone-sec5-pic h2{
+        text-align: center;
+        padding: 40% 0;
+        color: rgb(0, 0, 0);
+        font-size: 2.4rem;
+        font-weight: 600;
+        font-family: 'Shippori Mincho B1', serif;
+    }
+    div.phone-sec5-pic h2 span{
+        display: block;
+        font-size: 1.6rem;
+        margin-top: 12px;
+        font-weight: 400;
+    }
+    div.phone-sec5-pic h2::before{
+        content: "";
+        display: block;
+        position: absolute;
+        height: 25%;
+        width: 1px;
+        background: #444;
+        left: 50%;
+        top: 10%;
+    }
+    div.phone-sec5-pic h2::after{
+        content: "";
+        display: block;
+        position: absolute;
+        height: 25%;
+        width: 1px;
+        background: #444;
+        left: 50%;
+        bottom: 10%;
+    }
+
+
+
+
+
+    section.phone-sec6{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    .phone-sec6-title p{
+        font-size: 1.6rem;
+        font-family: 'Amiri', serif;
+        margin-bottom: 20px;
+    }
+    div.phone-sec6-content img{
+        width: 100%;
+    }
+    div.phone-sec6-text{
+        margin-top: 10px;
+    }
+    div.phone-sec6-text h3 span{
+        display: block;
+        font-family: 'Amiri', serif;
+        margin-top: 8px;
+    }
+    div.phone-sec6-content h3{
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+        font-family: 'Shippori Mincho B1', serif;
+    }
+    div.phone-sec6-content p{
+        font-size: 1.4rem;
+        font-family: 'Shippori Mincho B1', serif;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    
+}

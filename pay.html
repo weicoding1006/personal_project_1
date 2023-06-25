@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日和茶集</title>
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/nav_footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/hanamin-master/HanaMin.css">
+    <link href="./images/icon.ico" rel="shortcut icon" />
+
+
+        <!--粗體 明體-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/pay.css">
+</head>
+
+<body>
+    <div class="bg-color"></div>
+    <div class="warp">
+        <header>
+            <div class="logo">
+                <div class="logo-pic">
+                    <a href="./index.html"><img src="./images/Logo.png" alt="圖片"></a>
+                </div>
+                <div class="ham">
+                    <div class="hd-icon">
+                        <a href="#"><img src="./images/index/icon _instagram_.png" alt=""></a>
+                        <a href="./shoppingcar.html"><img src="./images/index/icon _shopping cart_.png" alt=""></a>
+                    </div>
+                    <div class="hd-line"></div>
+                    <!-- <i class="fa-solid fa-bars"></i> -->
+                </div>
+            </div>
+            <div class="phone-slidebar">
+                    <ul>
+                        <li><a href="./index.html">首頁</a></li>
+                        <li><a href="./about.html">關於我們</a></li>
+                        <li><a href="./contact.html">聯絡我們</a></li>
+                        <li><a href="./eventlist.html">活動資訊</a></li>
+                        <li><a href="./food.html">美味餐點</a></li>
+                        <li><a href="./productList.html">線上商城</a></li>
+                    </ul>
+            </div>
+            <ul class="des-menu">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="about.html">關於我們</a></li>
+                <li><a href="contact.html">聯絡我們</a></li>
+                <li><a href="eventlist.html">活動資訊</a></li>
+                <li><a href="food.html">美味餐點</a></li>
+                <li><a href="productList.html">線上商城</a></li>
+                <li class="cardslide"><a href="shoppingcar.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </header>
+
+        <div class="container">
+            <main>
+                <div class="main-top">
+                    <h4>付款方式</h4>
+                    <div class="pay">
+                        <div class="btn">
+                            <button>
+                                <span>信用卡</span>
+                                <span class="triangle">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </span>
+                            </button>
+                            <div class="list" style="display: none;">
+                                <ul>
+                                    <li>
+                                        <button>貨到付款</button>
+                                    </li>
+                                    <li>
+                                        <button>貨到付款(宅配)</button>
+                                    </li>
+                                    <li>
+                                        <button>信用卡分期(三期)</button>
+                                    </li>
+                                    <li>
+                                        <button>信用卡分期(六期)</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-img">
+                            <img src="./images/pay/1.png" alt="">
+                            <img src="./images/pay/2.png" alt="">
+                            <img src="./images/pay/3.png" alt="">
+                            <img src="./images/pay/4.png" alt="">
+                        </div>
+
+                    </div>
+                    <p>下一步請連至第三方金流服務進行刷卡，你所有的交易資訊皆獲得安全保護</p>
+                </div>
+
+
+                <div class="main-bottom">
+                    <h4>發票選項</h4>
+                    <p>以下資訊只用於開立發票，並不會在其他頁面顯示。發票一經開立後不可更改，請確認資訊是否都填寫正確喔! <br>(<span class="red">*</span>為必填欄位)</p>
+                    <div class="input-top">
+                        <div class="name">
+                            <label for="name">姓名<span>*</span></label>
+                            <br>
+                            <input type="text" id="name" placeholder="請輸入姓名">
+                        </div>
+                        <div class="email">
+                            <label for="email">聯絡用電子信箱<span>*</span></label>
+                            <br>
+                            <input type="text" id="email" placeholder="請填入電子信箱">
+                        </div>
+                    </div>
+                    <div class="input-buttom">
+                        <div class="receipt">
+                            <p>發票類型 <span>如需開立統編，請選擇統編發票。</span></p>
+                            <button>
+                                <span>
+                                    電子發票
+                                </span>
+                                <span class="triangle">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="save">
+                            <button>
+                                <span>儲存在日和，中獎後寄信通知</span>
+                                <span class="triangle">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <aside>
+                <div class="aside-top">
+                    <h3>訂單明細</h3>
+                    <div class="block1">
+                        <p class="left">小計</p>
+                        <p class="right">NT$550</p>
+                    </div>
+                    <div class="block2">
+                        <p>NT$550</p>
+                    </div>
+                    <div class="aside-btn">
+                        <button>同意並送出</button>
+                    </div>
+                </div>
+                <div class="aside-center">
+                    <div class="block3">
+                        <p>購物列表(1)</p>
+                        <button>
+                            <span>
+                                <p>展開</p>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-caret-down"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="block4">
+                        <p>總計一項商品</p>
+                    </div>
+                </div>
+
+                <div class="aside-bottom">
+                    <a href="./productList.html">回線上商城</a>
+                </div>
+            </aside>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="slideshoppingcar">
+        <div class="shop-title">
+            <div class="car">
+                <p>您的購物車</p>
+            </div>
+            <div class="delete-icon">
+                <a href="#"><img src="./images/index/delete.png" alt=""></a>
+            </div>
+        </div>
+        <div class="product1">
+
+            <div class="shop-content">
+                <div class="shop-pic">
+                    <img src="./images/shoppingcar/3.png" alt="">
+                </div>
+                <div class="shop-text">
+                    <h3>攝影集</h3>
+                    <p>NT$ <span class="slide-product-price">550</span> </p>
+                    <a href="#" class="del-link"><i class="fa-regular fa-trash-can"></i></a>
+                </div>
+            </div>
+            <div class="shop-total">
+                <div class="num">
+                    <div class="left-icon">
+                        <i class="fa-solid fa-minus minus-btn"></i>
+                    </div>
+                    <div class="center-input">
+                        <input type="text" value="1" class="numinput" disabled>
+                    </div>
+
+                    <div class="right-icon">
+                        <i class="fa-solid fa-plus plus-btn"></i>
+                    </div>
+                </div>
+                <div class="shop-price">
+                    <p>NT$<span class="slide-price">550</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="product2">
+            <div class="shop-content">
+                <div class="shop-pic">
+                    <img src="./images/shoppingcar/5.png" alt="">
+                </div>
+                <div class="shop-text">
+                    <h3>二手小物</h3>
+                    <p>NT$ <span class="slide-product-price">500</span> </p>
+                    <a href="#" class="del-link"><i class="fa-regular fa-trash-can"></i></a>
+                </div>
+            </div>
+            <div class="shop-total">
+                <div class="num">
+                    <div class="left-icon">
+                        <i class="fa-solid fa-minus minus-btn"></i>
+                    </div>
+                    <input type="text" value="1" class="numinput" disabled>
+                    <div class="right-icon">
+                        <i class="fa-solid fa-plus plus-btn"></i>
+                    </div>
+                </div>
+                <div class="shop-price">
+                    <p>NT$<span class="slide-price">500</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="shop-pay">
+            <a href="shoppingcar.html">
+                <p>結帳</p>
+            </a>
+        </div>
+    </div>
+
+    <footer class="phone-footer">
+        <div class="phone-footer-in">
+            <div class="footer-flex">
+                <div class="footer-pic">
+                    <img src="./images/Logo.png" alt="">
+                </div>
+                <ul class="footer-list">
+                    <li>HOURS:8:00-21:00</li>
+                    <li>OPEN:Wed / Fri / 2nd&4th Sun</li>
+                    <li>ADDRESS:<span>台北市北投區菁山路</span></li>
+                    <li>MAIL:weistudio@gmail.com</li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <footer class="des-footer">
+        <div class="container">
+            <div class="img">
+                <a href="#">
+                    <img src="./images/Logo.png" alt="">
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <a href="about.html" class="title">關於我們</a>
+                    <a href="about.html" class="inner">品牌由來</a>
+                    <a href="about.html" class="inner">日和故事集</a>
+                </li>
+
+                <li>
+                    <a href="eventlist.html" class="title">活動資訊</a>
+                    <a href="eventlist.html" class="inner">報名須知</a>
+                    <a href="eventlist.html" class="inner">夏日音樂祭</a>
+                    <a href="eventlist.html" class="inner">日和野餐聚</a>
+                    <a href="eventlist.html" class="inner">攝影活動</a>
+                </li>
+                <li>
+                    <a href="food.html" class="title">美味餐點</a>
+                    <a href="food.html" class="inner">熱門餐點</a>
+                    <a href="food.html" class="inner">季節限定</a>
+                    <a href="food.html" class="inner">嚴選系列</a>
+                </li>
+                <li>
+                    <a href="productList.html" class="title">線上商城</a>
+                    <a href="productList.html" class="inner">寄送資訊</a>
+                    <a href="productList.html"class="inner">付款方式</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="title">聯絡我們</a>
+                    <a href="contact.html" class="inner"><i class="fa-solid fa-phone"></i>02-4092072</a>
+                    <a href="contact.html" class="inner"><i class="fa-solid fa-envelope"></i>weistudio@gmail.com</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </footer>
+        <script src="./js/pay.js"></script>
+</body>
+
+</html>

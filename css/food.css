@@ -1,0 +1,784 @@
+.slider {
+    margin-top: 50px;
+}
+
+article {
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.flexslider h2 {
+    font-family: 'Amiri', serif;
+    position: absolute;
+    font-size: 4.8rem;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 10;
+}
+
+section.sec1 {
+    /* display: flex; */
+    /* overflow: hidden; */
+    padding-top: 50px;
+}
+
+div.sec1-pic {
+    height: 591px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/food/1.png);
+}
+
+div.sec1-pic img {
+    width: 100%;
+}
+
+/*sec1-content*/
+.sec1-content {
+    /* width: 30%; */
+    font-family: 'Shippori Mincho B1', serif;
+    text-align: right;
+}
+
+.sec1-content div.text1 p {
+    font-size: 3.2rem;
+    background-color: #C64440;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.sec1-content div.text2 p {
+    font-size: 3.2rem;
+    background-color: #C64440;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+}
+
+.sec1-content div.text3 p {
+    font-size: 3.2rem;
+    background-color: #C64440;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.sec1-content div.text4 p {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-right: 40px;
+}
+
+div.line img {
+    width: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+/**/
+
+.sec2 {
+    margin-top: 80px;
+    /* display: flex; */
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid black;
+
+}
+
+div.sec2-pic {
+    height: 591px;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/food/2.png);
+}
+
+.sec2-content {
+    /* width: 30%; */
+    font-family: 'Shippori Mincho B1', serif;
+    /* text-align: right; */
+}
+
+.sec2-content div.text1 p {
+    font-size: 3.2rem;
+    background-color: #684B42;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.sec2-content div.text2 p {
+    font-size: 3.2rem;
+    background-color: #684B42;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+}
+
+.sec2-content div.text3 p {
+    font-size: 3.2rem;
+    background-color: #684B42;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.sec2-content div.text4 p {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-left: 40px;
+}
+
+div.line img {
+    width: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/*sec3-----------------------*/
+.sec3 {
+    position: relative;
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+}
+
+.sec3 div.pic {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.sec3 div.pic1 {
+    width: 15%;
+}
+
+.sec3 div.pic2 {
+    width: 15%;
+}
+
+.sec3 div.pic3 {
+    width: 30%;
+}
+
+.sec3 div.pic4 {
+    width: 15%;
+}
+
+.sec3 div.pic5 {
+    width: 15%;
+}
+
+div.pic img {
+    /* width: 100%; */
+}
+
+.sec3 div.pic2 span {
+    text-align: right;
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    display: block;
+}
+
+.sec3 h3 {
+    font-family: 'Shippori Mincho B1', serif;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+.sec3 h4.left {
+    position: absolute;
+    top: -35px;
+    left: 213px;
+    display: inline-block;
+    font-size: 4rem;
+    padding-left: 60px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid black;
+    z-index: 200;
+}
+
+.sec3 h4.right {
+    position: absolute;
+    top: -35px;
+    right: 196px;
+    display: inline-block;
+    font-size: 4rem;
+    padding-right: 60px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid black;
+}
+
+.sec3 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*sec4-----------------*/
+.sec4 {
+    margin-top: 50px;
+}
+
+.sec4-top {
+    display: flex;
+    justify-content: center;
+}
+
+.sec4 h4 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 30px;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.text-top {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-top p {
+    line-height: 1.6;
+    font-size: 2rem;
+    font-family: 'Shippori Mincho B1', serif;
+    /* text-align: center; */
+}
+
+.text-bottom p {
+    line-height: 1.6;
+    font-size: 2rem;
+    font-family: 'Shippori Mincho B1', serif;
+    /* text-align: center; */
+}
+
+div.left {
+    width: 31.3333%;
+    margin-right: 1%;
+    margin-left: 1%;
+    text-align: center;
+}
+
+div.left img {
+    margin-top: 50px;
+}
+
+div.center {
+    width: 31.3333%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+div.right {
+    width: 31.3333%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+div.center img,
+div.right img {
+    width: 100%;
+}
+
+
+/*sec5----------------------------------*/
+.sec5 div.pic-block {
+    margin-top: 50px;
+}
+
+.sec5 div.sec5-pic {
+    text-align: center;
+    width: 100%;
+    height: 549px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/food/8.png);
+}
+
+.sec5 div.sec5-pic a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 6.4rem;
+    line-height: 549px;
+    transition: 0.5s;
+}
+
+.sec5 div.sec5-pic a:hover {
+    font-size: 7rem;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.639);
+}
+
+
+
+/*sec6*/
+.sec6 {
+    display: flex;
+    margin-top: 50px;
+}
+
+.sec6-left {
+    width: 31.3333%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.sec6-center {
+    width: 31.3333%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.sec6-right {
+    margin-top: 50px;
+    text-align: center;
+    width: 31.3333%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.sec6-left img,
+.sec6-center img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/*slides*/
+.slick-slider {
+    margin: 50px auto 0 auto;
+    width: 100%;
+
+}
+
+.slick-slide {
+    margin: 0 10px;
+    position: relative;
+    width: 100%;
+
+}
+
+.slick-slide:not(.slick-center) {
+    margin-top: 57px;
+}
+
+.slick-slide img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.slick-center img {
+    width: 100%;
+}
+
+.slick-track {
+    align-items: center;
+}
+
+article.phone {
+    display: none;
+}
+
+section.phone-sec4{
+    display: none;
+}
+section.phone-sec5{
+    display: none;
+}
+
+section.phone-sec6{
+    display: none;
+}
+
+section.phone-sec7{
+    display: none;
+}
+/*phone-slides*/
+
+
+@media screen and (max-width:415px) {
+    section.phone-sec7{
+        display: block;
+    }
+    section.phone-sec6{
+        display: block;
+    }
+    section.phone-sec5{
+        display: block;
+    }
+    section.phone-sec4{
+        display:  block;
+    }
+    article.phone {
+        display: block;
+    }
+
+    .slider {
+        margin-top: 0;
+    }
+
+    .flexslider {
+        display: none;
+    }
+    /* div.block{
+        height: 63px;
+    } */
+    /* section.sec1 {
+        display: none;
+    }
+    article section.sec2{
+        display: none;
+    }
+    .sec3{
+        display: none;
+    }
+    .sec4{
+        display: none;
+    }
+    .sec5{
+        display: none;
+    }
+    .sec6{
+        display: none;
+    } */
+    article.des {
+        display: none;
+    }
+
+    section.phone-sec1{
+        display: block;
+        padding-top: 100px;
+        padding: 100px 10px 0 10px;
+    }
+    section.phone-sec1 h2{
+        text-align: center;
+        font-size: 2.8rem;
+        font-family: 'Amiri', serif;
+        position: relative;
+        top: 14px;
+        font-weight: 500;
+    }
+
+    .phone-sec1 div.sec1-pic{
+        background-image: url(../images/food/17.png);
+        width: 100%;
+        height: 47vw;
+        min-height: 490px;
+        background-size: cover;
+        background-position: center center;
+        margin-bottom: 100px;
+    }
+    section.phone-sec2{
+        position: relative;
+    }
+    div.phone-sec2-pic{
+        background-image: url(../images/food/1.png);
+        height: 500px;
+        width: 85%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        position: relative;
+        left: -502px;
+        transition: 1.5s;
+        transition-delay: 0.3s;
+        opacity: 0;
+    }
+
+    .leftmove{
+        left: 0 !important;
+        transition: 1.5s;
+        opacity: 1 !important;
+    }
+
+    div.phone-sec2-content{
+        position: absolute;
+        background-color: #d15f5b;
+        top: -47px;
+        right: -220px;
+        padding: 32px 30px;
+        transition: 1.5s;
+        opacity: 0;
+    }
+    .move{
+        right: 0 !important;
+        transition: 1.5s;
+        opacity: 1 !important;
+    }
+
+    div.phone-sec2-content h3{
+        font-size: 2rem;
+        font-family: 'Shippori Mincho B1', serif;
+        font-weight: 600;
+        color: white;
+    }
+    div.phone-sec2-content div{
+        margin-top: 10px;
+    }
+    div.phone-sec2-content p{
+        font-size: 1.4rem;
+        font-family: 'Shippori Mincho B1', serif;
+        line-height: 1.4;
+        color: white;
+    }
+
+
+
+
+    /*sec3*/
+
+    section.phone-sec3{
+        position: relative;
+        margin-top: 100px;
+    }
+    div.phone-sec3-pic{
+        background-image: url(../images/food/2.png);
+        height: 500px;
+        width: 85%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-left: 15%;
+        position: relative;
+        right: -360px;
+        transition: 1.5s;
+        transition-delay: 0.5s;
+        opacity: 0;
+    }
+
+    .sec3_right_move{
+        right: 0 !important;
+        transition: 1.5s;
+        opacity: 1 !important;
+    }
+
+    div.phone-sec3-content{
+        position: absolute;
+        background-color: #684B42;
+        top: -47px;
+        left: -230px;
+        padding: 32px 30px;
+        transition: 1.5s;
+        opacity: 0;
+    }
+
+    .sec3_left_move{
+        left: 0 !important;
+        transition: 1.5s;
+        opacity: 1 !important;
+    }
+
+    div.phone-sec3-content h3{
+        font-size: 2rem;
+        font-family: 'Shippori Mincho B1', serif;
+        font-weight: 600;
+        color: white;
+    }
+    div.phone-sec3-content div{
+        margin-top: 10px;
+    }
+    div.phone-sec3-content p{
+        font-size: 1.4rem;
+        font-family: 'Shippori Mincho B1', serif;
+        line-height: 1.4;
+        color: white;
+    }
+
+
+
+    /*sec4 slide*/
+    section.phone-sec4{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .slick-slider {
+        margin: 20px auto 0 auto;
+        width: 100%;
+    
+    }
+    
+    .slick-slide {
+        margin: 0 10px;
+        position: relative;
+        width: 100%;
+    
+    }
+    
+    .slick-slide:not(.slick-center) {
+        margin-top: 45px;
+    }
+    
+    .slick-slide img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    
+    }
+    
+    .slick-center img {
+        width: 100%;
+    }
+    
+    .slick-track {
+        align-items: center;
+    }
+    
+
+    section.phone-sec4 h3{
+        text-align: center;
+        font-size: 2.4rem;
+        font-family: 'Shippori Mincho B1', serif;
+        font-weight: 600;
+    }
+
+
+    /*sec5*/
+
+    section.phone-sec5 h3{
+        text-align: center;
+        font-size: 2.4rem;
+        font-family: 'Shippori Mincho B1', serif;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    div.sec5-pic-inner{
+        background-image: url(../images/food/8.png);
+        width: 100%;
+        height: 190px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-align: center;
+    }
+    div.sec5-pic-inner a{
+        text-decoration: none;
+        color: white;
+        font-size: 3.6rem;
+        display: block;
+        line-height: 189px;
+    }
+
+
+    div.phone-sec5-content{
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    div.phone-sec5-content-pic{
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    div.phone-sec5-content-pic img{
+        width: 35%;
+    }
+    div.phone-sec5-content p{
+        font-size: 1.4rem;
+        font-family: 'Shippori Mincho B1', serif;
+        line-height: 2;
+    }
+
+    section.phone-sec6{
+        padding: 0 5%;
+        box-sizing: border-box;
+    }
+    section.phone-sec6 ul{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    section.phone-sec6 ul li{
+        width: 48%;
+        margin: 0 1%;
+    }
+    section.phone-sec6 ul li img{
+        width: 100%;
+        display: block;
+        margin-bottom: 8px;
+    }
+    section.phone-sec7{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    section.phone-sec7 a{
+        text-decoration: none;
+        font-size: 2.4rem;
+        color: black;
+        display: table;
+        margin: auto;
+        position: relative;
+        font-family: 'Amiri', serif;
+    }
+
+    section.phone-sec7 a::after{
+        content: "";
+        background-image: url(../images/index/line_black.png);
+        width: 50px;
+        height: 11px;
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: -57px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+
+.swiper-container{
+    margin-bottom: 100px;
+    position: relative;
+}
+    div.sec1-pic{
+        height: 100vh;
+        background-size: cover;
+        background-image: url(../images/food/Mask\ group\ \(3\).png);
+    }
+    div.sec2-pic{
+        height: 100vh;
+        background-size: cover;
+        background-image: url(../images/food/Mask\ group\ \(4\).png);
+    }
+    div.sec3-pic{
+        height: 100vh;
+        background-size: cover;
+        background-image: url(../images/food/Mask\ group\ \(5\).png);
+    }
+
+    p.slide-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 4.8rem;
+        font-family: 'Amiri', serif;
+    }
+}

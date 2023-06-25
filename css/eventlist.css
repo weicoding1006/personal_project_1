@@ -1,0 +1,735 @@
+article {
+    margin-top: 50px;
+}
+
+.flexslider h2 {
+    font-family: 'Amiri', serif;
+    position: absolute;
+    font-size: 4.8rem;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 10;
+}
+
+/*sec1-------------------------------------*/
+.sec1 h2 {
+    font-family: 'Amiri', serif;
+    font-size: 4.8rem;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(181, 181, 181);
+}
+
+/*sec2-------------------------*/
+
+.sec2 {
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(181, 181, 181);
+}
+
+.sec2-left {
+    max-width: 10%;
+    margin-right: 30px;
+}
+.sec2-left p.month{
+    font-size: 4.8rem;
+    margin-bottom: 30px;
+    font-family: 'Amiri', serif;
+    position: relative;
+}
+
+.sec2-left p.month::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 2px;
+    bottom: -15px;
+    left: -5px;
+}
+.sec2-left p.num{
+    font-family: 'Shippori Mincho B1', serif;
+    font-weight: bold;
+    /* color: rgb(63, 63, 63); */
+}
+.sec2-right div.right-text h2 {
+    font-size: 3.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.sec2-right div.right-text p.address{
+    font-size: 2.8rem;
+    font-family: 'Shippori Mincho B1', serif;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+.sec2-right div.right-text p.content{
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 1.8rem;
+    padding-bottom: 35px;
+    border-bottom: 1px solid gray;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.sec2-right div.right-text a.detail{
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 3.2rem;
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+    transform: scale(1);
+}
+.sec2-right div.right-text div.img{
+    width: 25%;
+    align-self: flex-end;
+}
+.sec2-right div.right-text div.img img{
+    width: 100%;
+    margin-left: 8px;
+    transition: .5s;
+}
+div.link:hover div.img img{
+    margin-left: 18px;
+}
+div.link:hover a.detail{
+    transform: scale(1.05);
+}
+div.link{
+    display: flex;
+    cursor: pointer;
+    width: 50%;
+}
+
+.sec2-left p.num {
+    font-size: 4.8rem;
+}
+
+.sec2-center {
+    width: 45%;
+    overflow: hidden;
+}
+
+.sec2-center img {
+    width: 100%;
+    transition: 1s;
+}
+.sec2-center img:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.sec2-right {
+    width: 35%;
+    flex-grow: 1;
+    margin-left: 30px;
+}
+
+
+/*sec3-------------------------------------------*/
+.sec3 {
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(181, 181, 181);
+}
+
+.sec3-left {
+    max-width: 10%;
+    margin-right: 30px;
+}
+.sec3-left p.month{
+    font-size: 4.8rem;
+    margin-bottom: 30px;
+    font-family: 'Amiri', serif;
+    position: relative;
+}
+
+.sec3-left p.month::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 2px;
+    bottom: -15px;
+    left: -5px;
+}
+.sec3-left p.num{
+    font-family: 'Shippori Mincho B1', serif;
+    font-weight: bold;
+    /* color: rgb(63, 63, 63); */
+}
+.sec3-right div.right-text h2 {
+    font-size: 3.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.sec3-right div.right-text p.address{
+    font-size: 2.8rem;
+    font-family: 'Shippori Mincho B1', serif;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+.sec3-right div.right-text p.content{
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 1.8rem;
+    padding-bottom: 35px;
+    border-bottom: 1px solid gray;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.sec3-right div.right-text a.detail{
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 3.2rem;
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+    transform: scale(1);
+}
+.sec3-right div.right-text div.img{
+    width: 25%;
+    align-self: flex-end;
+}
+.sec3-right div.right-text div.img img{
+    width: 100%;
+    margin-left: 8px;
+    transition: .5s;
+}
+div.link:hover div.img img{
+    margin-left: 18px;
+}
+div.link:hover a.detail{
+    transform: scale(1.05);
+}
+div.link{
+    display: flex;
+    cursor: pointer;
+    width: 50%;
+}
+
+.sec3-left p.num {
+    font-size: 4.8rem;
+}
+
+.sec3-center {
+    width: 45%;
+    overflow: hidden;
+}
+
+.sec3-center img {
+    width: 100%;
+    transition: 1s;
+}
+.sec3-center img:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.sec3-right {
+    width: 35%;
+    flex-grow: 1;
+    margin-left: 30px;
+}
+
+/*sec4-------------------------------------------*/
+.sec4 {
+    margin-top: 30px;
+    display: flex;
+    /* margin-bottom: 50px; */
+    padding-bottom: 50px;
+    /* border-bottom: 1px solid rgb(181, 181, 181); */
+}
+
+.sec4-left {
+    max-width: 10%;
+    margin-right: 30px;
+}
+.sec4-left p.month{
+    font-size: 4.8rem;
+    margin-bottom: 30px;
+    font-family: 'Amiri', serif;
+    position: relative;
+}
+
+.sec4-left p.month::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 1px;
+    bottom: -15px;
+    left: -5px;
+}
+.sec4-left p.num{
+    font-family: 'Shippori Mincho B1', serif;
+    font-weight: bold;
+    /* color: rgb(63, 63, 63); */
+}
+.sec4-right div.right-text h2 {
+    font-size: 3.6rem;
+    font-family: 'Shippori Mincho B1', serif;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.sec4-right div.right-text p.address{
+    font-size: 2.8rem;
+    font-family: 'Shippori Mincho B1', serif;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+.sec4-right div.right-text p.content{
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 1.8rem;
+    padding-bottom: 35px;
+    border-bottom: 1px solid gray;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.sec4-right div.right-text a.detail{
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 3.2rem;
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+    transform: scale(1);
+}
+.sec4-right div.right-text div.img{
+    width: 25%;
+    align-self: flex-end;
+}
+.sec4-right div.right-text div.img img{
+    width: 100%;
+    margin-left: 8px;
+    transition: .5s;
+}
+div.link:hover div.img img{
+    margin-left: 18px;
+}
+div.link:hover a.detail{
+    transform: scale(1.05);
+}
+div.link{
+    display: flex;
+    cursor: pointer;
+    width: 50%;
+}
+
+.sec4-left p.num {
+    font-size: 4.8rem;
+}
+
+.sec4-center {
+    width: 45%;
+    overflow: hidden;
+}
+
+.sec4-center img {
+    width: 100%;
+    transition: 1s;
+}
+.sec4-center img:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.sec4-right {
+    width: 35%;
+    flex-grow: 1;
+    margin-left: 30px;
+}
+
+
+/*page---------------------*/
+
+
+div.page {
+    font-size: 0;
+    text-align: center;
+}
+
+div.page a {
+    text-decoration: none;
+    /* background-color: #CFCFCF; */
+    color: black;
+    font-size: 2.4rem;
+    padding: 10px 10px;
+    font-family: 'Amiri', serif;
+    position: relative;
+    font-weight: 500;
+}
+
+div.page a:nth-child(1) {
+    font-weight: 700;
+}
+
+div.page a:nth-child(1)::after {
+    content: "";
+    height: 3px;
+    width: 80%;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+div.page a:hover {
+    color: gray;
+}
+
+div.page a:nth-child(1):hover {
+    color: black;
+}
+
+div.page a:nth-child(6):after {
+    content: ">";
+    display: block;
+    position: absolute;
+    top: 17px;
+    right: 0;
+}
+
+div.right-text p.phone-content{
+    display: none;
+}
+
+section.phone-sec1{
+    display: none;
+}
+
+div.swiper-container{
+    display: none;
+}
+
+@media screen and (max-width:415px){
+    div.swiper-container{
+        display: block;
+    }
+    body{
+        overflow-x: hidden !important;
+    }
+    div.flexslider{
+        display: none;
+    }
+    .sec1{
+        padding: 0 3%;
+        /* display: none; */
+        /* margin-top: 30px; */
+        height: 10vh;
+    }
+    .sec1 h2{
+        font-size: 3.6rem;
+        text-align: center;
+        line-height: 89.6px;
+        padding-bottom:0 ;
+    }
+    .sec2{
+        flex-direction: column;
+        padding: 0 5%;
+        border: none;
+    }
+    .sec2-center{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sec2-right{
+        margin-left: 0;
+        width: 100%;
+    }
+    .sec2-left{
+        max-width: 100%;
+        margin: 0;
+    }
+    .sec2-left p{
+        display: inline-block;
+
+    }
+    .sec2-left p.month::after{
+        content: "/";
+        width: 0;
+        position: static;
+        display: inline;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .sec2-right div.right-text h2{
+        font-size: 2.4rem;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    .sec2-right div.right-text p.address{
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+    .sec2-right div.right-text p.content{
+        display: none;
+    }
+    .sec2-right div.right-text p.phone-content{
+        display: block;
+        font-family: 'Shippori Mincho B1', serif;
+        font-size: 1.6rem;
+        padding-bottom: 35px;
+        /* border-bottom: 1px solid gray; */
+        line-height: 1.6;
+    }
+    .sec2-right div.right-text a.detail{
+        font-size: 2rem;
+    }
+    .sec2-right div.right-text div.img img{
+        width: 80%;
+    }
+    .sec2-right div.right-text{
+        border-bottom: 1px solid gray;
+        padding-bottom: 20px;
+    }
+    .sec2-left p.num{
+        font-weight: 500;
+        font-size: 3.6rem;
+    }
+    .sec2-left p.month{
+        font-size: 3.6rem;
+    }
+
+
+
+
+
+
+
+    .sec3{
+        flex-direction: column;
+        padding: 0 5%;
+        border: none;
+    }
+    .sec3-center{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sec3-right{
+        margin-left: 0;
+        width: 100%;
+    }
+    .sec3-left{
+        max-width: 100%;
+        margin: 0;
+    }
+    .sec3-left p{
+        display: inline-block;
+    }
+    .sec3-left p.month::after{
+        content: "/";
+        width: 0;
+        position: static;
+        display: inline;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .sec3-right div.right-text h2{
+        font-size: 2.4rem;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    .sec3-right div.right-text p.address{
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+    .sec3-right div.right-text p.content{
+        display: none;
+    }
+    .sec3-right div.right-text p.phone-content{
+        display: block;
+        font-family: 'Shippori Mincho B1', serif;
+        font-size: 1.6rem;
+        padding-bottom: 35px;
+        /* border-bottom: 1px solid gray; */
+        line-height: 1.6;
+    }
+    .sec3-right div.right-text a.detail{
+        font-size: 2rem;
+    }
+    .sec3-right div.right-text div.img img{
+        width: 80%;
+    }
+    .sec3-right div.right-text{
+        border-bottom: 1px solid gray;
+        padding-bottom: 20px;
+    }
+    .sec3-left p.num{
+        font-weight: 500;
+        font-size: 3.6rem;
+    }
+
+
+    .sec3-left p.month{
+        font-size: 3.6rem;
+    }
+
+
+
+
+
+
+
+
+
+    .sec4{
+        flex-direction: column;
+        padding: 0 5%;
+        border: none;
+    }
+    .sec4-center{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sec4-right{
+        margin-left: 0;
+        width: 100%;
+    }
+    .sec4-left{
+        max-width: 100%;
+        margin: 0;
+    }
+    .sec4-left p{
+        display: inline-block;
+    }
+    .sec4-left p.month::after{
+        content: "/";
+        width: 0;
+        position: static;
+        display: inline;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .sec4-right div.right-text h2{
+        font-size: 2.4rem;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    .sec4-right div.right-text p.address{
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+    .sec4-right div.right-text p.content{
+        display: none;
+    }
+    .sec4-right div.right-text p.phone-content{
+        display: block;
+        font-family: 'Shippori Mincho B1', serif;
+        font-size: 1.6rem;
+        padding-bottom: 35px;
+        /* border-bottom: 1px solid gray; */
+        line-height: 1.6;
+    }
+    .sec4-right div.right-text a.detail{
+        font-size: 2rem;
+    }
+    .sec4-right div.right-text div.img img{
+        width: 80%;
+    }
+    .sec4-right div.right-text{
+        border-bottom: 1px solid gray;
+        padding-bottom: 20px;
+    }
+    .sec4-left p.num{
+        font-weight: 500;
+        font-size: 3.6rem;
+    }
+
+
+
+    div.page{
+        padding: 30px 0;
+    }
+
+
+
+    .phone-sec1 div.sec1-pic{
+        background-image: url(../images/eventlist/1.png);
+        width: 100%;
+        height: 47vw;
+        min-height: 490px;
+        background-size: cover;
+        background-position: center;
+    }
+    section.phone-sec1 h2{
+        text-align: center;
+        font-size: 2.8rem;
+        font-family: 'Amiri', serif;
+        position: relative;
+        top: 14px;
+        font-weight: 500;
+    }
+    section.phone-sec1{
+        padding-top: 80px;
+    }
+    section.phone-sec1{
+        display: block;
+    }
+    .sec4-right div.right-text{
+        border-bottom: none;
+        margin-bottom: 30px;
+    }
+
+    .sec4-left p.month{
+        font-size: 3.6rem;
+    }
+
+
+
+
+
+
+    .swiper-container{
+        /* margin-bottom: 100px; */
+        position: relative;
+        width: 100%;
+        overflow-x: hidden;
+    }
+        div.sec1-pic{
+            height: 90vh;
+            background-size: cover;
+            background-image: url(../images/eventlist/phone1.png);
+        }
+        div.sec2-pic{
+            height: 90vh;
+            background-size: cover;
+            background-image: url(../images/eventlist/phone2.png);
+        }
+        div.sec3-pic{
+            height: 90vh;
+            background-size: cover;
+            background-image: url(../images/eventlist/phone3.png);
+        }
+    
+
+        div.swiper-slide{
+            text-align: center;
+        }
+        p.slide-text{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 3.6rem;
+            font-family: 'Shippori Mincho B1', serif;
+            font-weight: 500;
+        }
+        p.slide-text span{
+            font-size: 2rem;
+            font-family: 'Shippori Mincho B1', serif;
+            font-weight: 500;
+        }
+}

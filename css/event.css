@@ -1,0 +1,199 @@
+article {
+    margin-top: 50px;
+}
+.flexslider h2 {
+    font-family: 'Amiri', serif;
+    position: absolute;
+    font-size: 4.8rem;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 10;
+}
+
+/*sec2-------------------------*/
+.sec2 {
+    text-align: center;
+}
+
+.sec2 select {
+    padding: 10px 15px;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.sec2 input.date {
+    padding: 10px;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.sec2 input.search {
+    padding: 10px;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.sec2 button {
+    padding: 10px;
+    font-size: 2rem;
+}
+
+/*sec3..................*/
+.sec3 {
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+.sec3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sec3 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.sec3 ul li {
+    width: 30%;
+    margin-bottom: 35px;
+    background-color: white;
+    position: relative;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    border: 1px solid rgb(183, 183, 183);
+    box-sizing: border-box;
+    transform: scale(1);
+    transition: .5s;
+}
+
+.sec3 ul li:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    border: 1px solid rgb(118, 118, 118);
+}
+
+
+.sec3 ul li div.content {
+    padding: 20px;
+}
+
+
+.sec3 ul li div.content h3 {
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 2.4rem;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+
+
+.sec3 ul li div.content i {
+    margin-top: 10px;
+    width: 20px;
+}
+
+.sec3 ul li div.content p {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sec3 ul li img {
+    width: 100%;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.sec3 ul li:hover img{
+    opacity: 1;
+}
+
+.sec3 div.date {
+    display: flex;
+}
+
+.sec3 div.time {
+    display: flex;
+}
+
+.sec3 div.line {
+    /* background-color: red; */
+    text-align: right;
+    padding-right: 50px;
+    /* font-size: 2rem; */
+}
+
+.sec3 div.line p {
+    font-size: 2rem;
+}
+
+.sec3 p.event {
+    background-color: #656565;
+    display: inline-block;
+    padding: 10px;
+    font-size: 2rem;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 266px;
+    left: 245px;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+
+/*page---------------------*/
+
+
+div.page {
+    font-size: 0;
+    text-align: center;
+}
+
+div.page a {
+    text-decoration: none;
+    /* background-color: #CFCFCF; */
+    color: black;
+    font-size: 2.4rem;
+    padding: 10px 10px;
+    font-family: 'Amiri', serif;
+    position: relative;
+    font-weight: 500;
+}
+
+div.page a:nth-child(1) {
+    font-weight: 700;
+}
+
+div.page a:nth-child(1)::after {
+    content: "";
+    height: 3px;
+    width: 80%;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+div.page a:hover {
+    color: gray;
+}
+
+div.page a:nth-child(1):hover {
+    color: black;
+}
+
+div.page a:nth-child(6):after {
+    content: ">";
+    display: block;
+    position: absolute;
+    top: 17px;
+    right: 0;
+}
